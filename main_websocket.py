@@ -1,7 +1,4 @@
-# _*_coding:utf-8_*_
-# !/usr/bin/env python
-# Author:Vergil_Fu
-import asyncio, websockets, logging, json, openai, jsonpath
+import asyncio, websockets, logging, json, openai, jsonpath,time
 import logsetter
 
 
@@ -13,24 +10,33 @@ async def echo(websocket, path):
         openai.api_base = configs['openai.api_base']
         openai.api_key = configs['openai.api_key']
         response = openai.ChatCompletion.create(
-            model='gpt-4-32k',
+            model='gpt-3.5-turbo',
             messages=[
                 {'role': 'user', 'content': question}
             ],
             temperature=0,
             stream=True  # again, we set stream=True
         )
-        tem = ''
-        for reply in response:
-            if jsonpath.jsonpath(reply, "$..content"):
-                logging.info(jsonpath.jsonpath(reply, "$..content")[0])
-                tem+= jsonpath.jsonpath(reply, "$..content")[0]
-                await websocket.send(jsonpath.jsonpath(reply, "$..content")[0])
-        logging.info(tem)
+        await sendmsg(response,websocket)
+
+async def sendmsg(response,websocket):
+    tem = ''
+    for reply in response:
+        content = jsonpath.jsonpath(reply, "$..content")
+        if content:
+            if len(tem)<30:
+                tem += content[0]
+            else:
+                logging.info(tem)
+                await websocket.send(tem)
+                await asyncio.sleep(0.3)
+                tem = ''
+    await websocket.send(tem)
+    await asyncio.sleep(0.3)
 
 
 logsetter.logsetter()
 logging.info('websocket服务启动成功')
-start_server = websockets.serve(echo, "172.20.200.121", 8090)
+start_server = websockets.serve(echo, "0.0.0.0", 8090)
 asyncio.get_event_loop().run_until_complete(start_server)
 asyncio.get_event_loop().run_forever()
