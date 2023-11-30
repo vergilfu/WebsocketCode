@@ -14,7 +14,6 @@ async def echo(websocket, path):
             messages=[
                 {'role': 'user', 'content': question}
             ],
-            temperature=0,
             stream=True  # again, we set stream=True
         )
         await sendmsg(response,websocket)
@@ -24,9 +23,10 @@ async def sendmsg(response,websocket):
     for reply in response:
         content = jsonpath.jsonpath(reply, "$..content")
         if content:
-            if len(tem)<30:
+            if len(tem)<5:
                 tem += content[0]
             else:
+                tem += content[0]
                 logging.info(tem)
                 await websocket.send(tem)
                 await asyncio.sleep(0.3)
