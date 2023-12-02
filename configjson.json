@@ -1,4 +1,14 @@
 {
   "openai.api_base": "https://api.openai-proxy.org/v1",
-  "openai.api_key": "sk-XYlbd3ZZlsGfG9WO4Gi50TeZPJZV87RqMmvo1yA2op4BNeKo"，
+  "openai.api_key": "sk-XYlbd3ZZlsGfG9WO4Gi50TeZPJZV87RqMmvo1yA2op4BNeKo",
+  "databases": {
+    "default": {
+      "ENGINE": "django.db.backends.postgresql_psycopg2",
+      "NAME": "postgres",
+      "USER": "postgres",
+      "PASSWORD": "123456",
+      "HOST": "localhost",
+      "PORT": "5432"
+    }
+  }
 }

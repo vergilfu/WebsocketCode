@@ -1,0 +1,7 @@
+jsonpath==0.82.2
+openai==0.28.0
+requests==2.31.0
+websockets==12.0
+sqlalchemy
+psycopg2
+django.db

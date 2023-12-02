@@ -15,7 +15,7 @@ def logsetter():
     logger2.addHandler(sh)
 
     # 设置log保存
-    fh = logging.FileHandler("tasklogger.log", encoding='utf8')
+    fh = logging.FileHandler("../tasklogger.log", encoding='utf8')
     fh.setFormatter(formatter)
     logger2.addHandler(fh)
     return logger2,sh,fh

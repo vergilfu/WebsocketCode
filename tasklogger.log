@@ -19500,3 +19500,2329 @@ div {
 2023-12-01 15:17:18,538 INFO connection closed
 2023-12-01 16:53:13,801 INFO websocket服务启动成功
 2023-12-01 16:53:13,831 INFO server listening on 0.0.0.0:8090
+2023-12-01 22:27:58,913 INFO websocket服务启动成功
+2023-12-01 22:27:58,949 INFO server listening on 0.0.0.0:8090
+2023-12-01 22:31:42,172 INFO connection open
+2023-12-01 22:31:54,862 ERROR connection handler failed
+Traceback (most recent call last):
+  File "C:\Users/pc/AppData/Local/Programs/Python/Python312/Lib/site-packages\websockets\legacy\server.py", line 236, in handler
+    await self.ws_handler(self)
+  File "C:\Users/pc/AppData/Local/Programs/Python/Python312/Lib/site-packages\websockets\legacy\server.py", line 1175, in _ws_handler
+    return await cast(
+           ^^^^^^^^^^^
+  File "E:\个人博客1\main_websocket.py", line 11, in echo
+    method = webmsg['method']
+             ~~~~~~^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2023-12-01 22:31:54,865 INFO connection closed
+2023-12-01 22:32:01,788 INFO connection open
+2023-12-01 22:38:55,210 INFO connection closed
+2023-12-01 22:41:14,898 INFO connection open
+2023-12-01 22:41:35,941 INFO connection open
+2023-12-01 22:42:59,368 ERROR connection handler failed
+Traceback (most recent call last):
+  File "C:\Users/pc/AppData/Local/Programs/Python/Python312/Lib/site-packages\websockets\legacy\server.py", line 236, in handler
+    await self.ws_handler(self)
+  File "C:\Users/pc/AppData/Local/Programs/Python/Python312/Lib/site-packages\websockets\legacy\server.py", line 1175, in _ws_handler
+    return await cast(
+           ^^^^^^^^^^^
+  File "E:\个人博客1\main_websocket.py", line 11, in echo
+    method = webmsg['method']
+             ~~~~~~^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2023-12-01 22:42:59,369 INFO connection closed
+2023-12-01 22:44:02,210 INFO websocket服务启动成功
+2023-12-01 22:44:02,240 INFO server listening on 0.0.0.0:8090
+2023-12-01 22:44:08,460 INFO connection open
+2023-12-01 22:44:24,825 ERROR connection handler failed
+Traceback (most recent call last):
+  File "C:\Users/pc/AppData/Local/Programs/Python/Python312/Lib/site-packages\websockets\legacy\server.py", line 236, in handler
+    await self.ws_handler(self)
+  File "C:\Users/pc/AppData/Local/Programs/Python/Python312/Lib/site-packages\websockets\legacy\server.py", line 1175, in _ws_handler
+    return await cast(
+           ^^^^^^^^^^^
+  File "E:\个人博客1\main_websocket.py", line 12, in echo
+    method = webmsg['method']
+             ~~~~~~^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2023-12-01 22:44:24,827 INFO connection closed
+2023-12-01 22:45:32,060 INFO websocket服务启动成功
+2023-12-01 22:45:32,091 INFO server listening on 0.0.0.0:8090
+2023-12-01 22:45:34,369 INFO connection open
+2023-12-01 22:45:43,572 ERROR connection handler failed
+Traceback (most recent call last):
+  File "C:\Users/pc/AppData/Local/Programs/Python/Python312/Lib/site-packages\websockets\legacy\server.py", line 236, in handler
+    await self.ws_handler(self)
+  File "C:\Users/pc/AppData/Local/Programs/Python/Python312/Lib/site-packages\websockets\legacy\server.py", line 1175, in _ws_handler
+    return await cast(
+           ^^^^^^^^^^^
+  File "E:\个人博客1\main_websocket.py", line 12, in echo
+    method = webmsg['method']
+             ~~~~~~^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2023-12-01 22:45:43,574 INFO connection closed
+2023-12-01 22:46:31,345 INFO websocket服务启动成功
+2023-12-01 22:46:31,377 INFO server listening on 0.0.0.0:8090
+2023-12-01 22:46:38,846 INFO connection open
+2023-12-01 22:46:44,783 INFO 用户提问：{"method":"chat","model":"gpt-3.5-turbo","question":"写一篇100字的作文"}
+2023-12-01 22:46:44,784 ERROR connection handler failed
+Traceback (most recent call last):
+  File "C:\Users/pc/AppData/Local/Programs/Python/Python312/Lib/site-packages\websockets\legacy\server.py", line 236, in handler
+    await self.ws_handler(self)
+  File "C:\Users/pc/AppData/Local/Programs/Python/Python312/Lib/site-packages\websockets\legacy\server.py", line 1175, in _ws_handler
+    return await cast(
+           ^^^^^^^^^^^
+  File "E:\个人博客1\main_websocket.py", line 14, in echo
+    question = webmsg['question']
+               ~~~~~~^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2023-12-01 22:46:44,786 INFO connection closed
+2023-12-01 22:47:11,502 INFO websocket服务启动成功
+2023-12-01 22:47:11,538 INFO server listening on 0.0.0.0:8090
+2023-12-01 22:47:16,462 INFO connection open
+2023-12-01 22:47:21,394 INFO 用户提问：{"method":"chat","model":"gpt-3.5-turbo","question":"写一篇100字的作文"}
+2023-12-01 22:47:21,394 ERROR connection handler failed
+Traceback (most recent call last):
+  File "C:\Users/pc/AppData/Local/Programs/Python/Python312/Lib/site-packages\websockets\legacy\server.py", line 236, in handler
+    await self.ws_handler(self)
+  File "C:\Users/pc/AppData/Local/Programs/Python/Python312/Lib/site-packages\websockets\legacy\server.py", line 1175, in _ws_handler
+    return await cast(
+           ^^^^^^^^^^^
+  File "E:\个人博客1\main_websocket.py", line 15, in echo
+    question = webmsg['question']
+               ~~~~~~^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+2023-12-01 22:47:21,397 INFO connection closed
+2023-12-01 22:48:06,157 INFO websocket服务启动成功
+2023-12-01 22:48:06,202 INFO server listening on 0.0.0.0:8090
+2023-12-01 22:48:07,868 INFO connection open
+2023-12-01 22:48:12,445 INFO 用户提问：{'method': 'chat', 'model': 'gpt-3.5-turbo', 'question': '写一篇100字的作文'}
+2023-12-01 22:48:12,446 ERROR connection handler failed
+Traceback (most recent call last):
+  File "C:\Users/pc/AppData/Local/Programs/Python/Python312/Lib/site-packages\websockets\legacy\server.py", line 236, in handler
+    await self.ws_handler(self)
+  File "C:\Users/pc/AppData/Local/Programs/Python/Python312/Lib/site-packages\websockets\legacy\server.py", line 1175, in _ws_handler
+    return await cast(
+           ^^^^^^^^^^^
+  File "E:\个人博客1\main_websocket.py", line 18, in echo
+    configs = json.load(f)
+              ^^^^^^^^^^^^
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 3 column 74 (char 131)
+2023-12-01 22:48:12,452 INFO connection closed
+2023-12-01 22:49:26,766 INFO websocket服务启动成功
+2023-12-01 22:49:26,799 INFO server listening on 0.0.0.0:8090
+2023-12-01 22:49:30,766 INFO connection open
+2023-12-01 22:49:36,431 INFO 用户提问：{'method': 'chat', 'model': 'gpt-3.5-turbo', 'question': '写一篇100字的作文'}
+2023-12-01 22:49:36,432 ERROR connection handler failed
+Traceback (most recent call last):
+  File "C:\Users/pc/AppData/Local/Programs/Python/Python312/Lib/site-packages\websockets\legacy\server.py", line 236, in handler
+    await self.ws_handler(self)
+  File "C:\Users/pc/AppData/Local/Programs/Python/Python312/Lib/site-packages\websockets\legacy\server.py", line 1175, in _ws_handler
+    return await cast(
+           ^^^^^^^^^^^
+  File "E:\个人博客1\main_websocket.py", line 18, in echo
+    configs = json.load(f)
+              ^^^^^^^^^^^^
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 3 column 74 (char 131)
+2023-12-01 22:49:36,436 INFO connection closed
+2023-12-01 22:50:23,589 INFO websocket服务启动成功
+2023-12-01 22:50:23,618 INFO server listening on 0.0.0.0:8090
+2023-12-01 22:50:27,077 INFO connection open
+2023-12-01 22:50:31,454 INFO 用户提问：{'method': 'chat', 'model': 'gpt-3.5-turbo', 'question': '写一篇100字的作文'}
+2023-12-01 22:50:31,455 ERROR connection handler failed
+Traceback (most recent call last):
+  File "C:\Users/pc/AppData/Local/Programs/Python/Python312/Lib/site-packages\websockets\legacy\server.py", line 236, in handler
+    await self.ws_handler(self)
+  File "C:\Users/pc/AppData/Local/Programs/Python/Python312/Lib/site-packages\websockets\legacy\server.py", line 1175, in _ws_handler
+    return await cast(
+           ^^^^^^^^^^^
+  File "E:\个人博客1\main_websocket.py", line 19, in echo
+    configs = json.load(f)
+              ^^^^^^^^^^^^
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 3 column 74 (char 131)
+2023-12-01 22:50:31,459 INFO connection closed
+2023-12-01 22:50:46,508 INFO websocket服务启动成功
+2023-12-01 22:50:46,539 INFO server listening on 0.0.0.0:8090
+2023-12-01 22:50:49,134 INFO connection open
+2023-12-01 22:50:54,392 INFO 用户提问：{'method': 'chat', 'model': 'gpt-3.5-turbo', 'question': '写一篇100字的作文'}
+2023-12-01 22:50:54,392 ERROR connection handler failed
+Traceback (most recent call last):
+  File "C:\Users/pc/AppData/Local/Programs/Python/Python312/Lib/site-packages\websockets\legacy\server.py", line 236, in handler
+    await self.ws_handler(self)
+  File "C:\Users/pc/AppData/Local/Programs/Python/Python312/Lib/site-packages\websockets\legacy\server.py", line 1175, in _ws_handler
+    return await cast(
+           ^^^^^^^^^^^
+  File "E:\个人博客1\main_websocket.py", line 19, in echo
+    configs = json.load(f)
+              ^^^^^^^^^^^^
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-12-01 22:50:54,397 INFO connection closed
+2023-12-01 22:51:09,562 INFO websocket服务启动成功
+2023-12-01 22:51:09,599 INFO server listening on 0.0.0.0:8090
+2023-12-01 22:51:11,480 INFO connection open
+2023-12-01 22:51:15,823 INFO 用户提问：{'method': 'chat', 'model': 'gpt-3.5-turbo', 'question': '写一篇100字的作文'}
+2023-12-01 22:51:15,823 ERROR connection handler failed
+Traceback (most recent call last):
+  File "C:\Users/pc/AppData/Local/Programs/Python/Python312/Lib/site-packages\websockets\legacy\server.py", line 236, in handler
+    await self.ws_handler(self)
+  File "C:\Users/pc/AppData/Local/Programs/Python/Python312/Lib/site-packages\websockets\legacy\server.py", line 1175, in _ws_handler
+    return await cast(
+           ^^^^^^^^^^^
+  File "E:\个人博客1\main_websocket.py", line 19, in echo
+    configs = json.load(f.read())
+              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+                 ^^^^^^^
+AttributeError: 'str' object has no attribute 'read'
+2023-12-01 22:51:15,827 INFO connection closed
+2023-12-01 22:52:09,162 INFO websocket服务启动成功
+2023-12-01 22:52:09,190 INFO server listening on 0.0.0.0:8090
+2023-12-01 22:52:16,447 INFO connection open
+2023-12-01 22:52:20,911 INFO 用户提问：{'method': 'chat', 'model': 'gpt-3.5-turbo', 'question': '写一篇100字的作文'}
+2023-12-01 22:52:20,912 ERROR connection handler failed
+Traceback (most recent call last):
+  File "C:\Users/pc/AppData/Local/Programs/Python/Python312/Lib/site-packages\websockets\legacy\server.py", line 236, in handler
+    await self.ws_handler(self)
+  File "C:\Users/pc/AppData/Local/Programs/Python/Python312/Lib/site-packages\websockets\legacy\server.py", line 1175, in _ws_handler
+    return await cast(
+           ^^^^^^^^^^^
+  File "E:\个人博客1\main_websocket.py", line 18, in echo
+    configs = json.loads(f.read())
+              ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pc\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 3 column 74 (char 131)
+2023-12-01 22:52:20,916 INFO connection closed
+2023-12-01 22:53:07,633 INFO websocket服务启动成功
+2023-12-01 22:53:07,663 INFO server listening on 0.0.0.0:8090
+2023-12-01 22:53:13,485 INFO connection open
+2023-12-01 22:53:18,462 INFO 用户提问：{'method': 'chat', 'model': 'gpt-3.5-turbo', 'question': '写一篇100字的作文'}
+2023-12-01 22:53:18,463 ERROR connection handler failed
+Traceback (most recent call last):
+  File "C:\Users/pc/AppData/Local/Programs/Python/Python312/Lib/site-packages\websockets\legacy\server.py", line 236, in handler
+    await self.ws_handler(self)
+  File "C:\Users/pc/AppData/Local/Programs/Python/Python312/Lib/site-packages\websockets\legacy\server.py", line 1175, in _ws_handler
+    return await cast(
+           ^^^^^^^^^^^
+  File "E:\个人博客1\main_websocket.py", line 22, in echo
+    response = openai.ChatCompletion.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users/pc/AppData/Local/Programs/Python/Python312/Lib/site-packages\openai\_utils\_proxy.py", line 22, in __getattr__
+    return getattr(self.__get_proxied__(), attr)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users/pc/AppData/Local/Programs/Python/Python312/Lib/site-packages\openai\_utils\_proxy.py", line 43, in __get_proxied__
+    return self.__load__()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users/pc/AppData/Local/Programs/Python/Python312/Lib/site-packages\openai\lib\_old_api.py", line 33, in __load__
+    raise APIRemovedInV1(symbol=self._symbol)
+openai.lib._old_api.APIRemovedInV1: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2023-12-01 22:53:18,469 INFO connection closed
+2023-12-01 23:51:09,259 INFO websocket服务启动成功
+2023-12-01 23:51:09,333 INFO server listening on 0.0.0.0:8090
+2023-12-01 23:53:28,425 INFO connection open
+2023-12-01 23:53:39,805 INFO connection open
+2023-12-01 23:53:52,840 INFO 用户提问：{'method': 'chat', 'model': 'gpt-3.5-turbo', 'question': '写一篇100字的作文'}
+2023-12-01 23:54:02,060 INFO 我爱夏天。夏
+2023-12-01 23:54:02,367 INFO 天是一年中最
+2023-12-01 23:54:02,678 INFO 热的季节，但
+2023-12-01 23:54:02,991 INFO 我喜欢夏天的
+2023-12-01 23:54:03,304 INFO 原因不仅仅是
+2023-12-01 23:54:03,615 INFO 因为可以玩水
+2023-12-01 23:54:03,929 INFO 、吃冰淇淋。
+2023-12-01 23:54:04,239 INFO 夏天意味着放
+2023-12-01 23:54:04,552 INFO 假、旅游和冒
+2023-12-01 23:54:04,865 INFO 险。夏天里，
+2023-12-01 23:54:05,178 INFO 我可以和家人
+2023-12-01 23:54:05,490 INFO 一起去海滩度
+2023-12-01 23:54:05,805 INFO 假，晒太阳、
+2023-12-01 23:54:06,113 INFO 游泳、建沙堡
+2023-12-01 23:54:06,424 INFO 。夏天里，我
+2023-12-01 23:54:06,736 INFO 也可以和朋友
+2023-12-01 23:54:07,048 INFO 一起去露营，
+2023-12-01 23:54:07,361 INFO 看星星、烤棉
+2023-12-01 23:54:07,672 INFO 花糖、讲鬼故
+2023-12-01 23:54:07,988 INFO 事。夏天给了
+2023-12-01 23:54:08,300 INFO 我很大的自由
+2023-12-01 23:54:08,624 INFO ，没有作业、
+2023-12-01 23:54:08,938 INFO 没有学校，就
+2023-12-01 23:54:09,252 INFO 是自由自在的
+2023-12-01 23:54:09,563 INFO 玩乐时光。夏
+2023-12-01 23:54:09,875 INFO 天带给我很多
+2023-12-01 23:54:10,188 INFO 快乐和美好的
+2023-12-01 23:54:10,501 INFO 回忆，所以我
+2023-12-01 23:54:10,815 INFO 非常热爱夏天
+2023-12-01 23:55:13,584 INFO connection open
+2023-12-01 23:55:41,621 INFO 用户提问：{'method': 'chat', 'model': 'gpt-3.5-turbo', 'question': 'python怎么用orm，给出详细的代码实例'}
+2023-12-01 23:55:42,592 INFO ORM（Object-
+2023-12-01 23:55:42,906 INFO Relational Mapping
+2023-12-01 23:55:43,216 INFO ）是一种将对象
+2023-12-01 23:55:43,528 INFO 模型和关系数据库
+2023-12-01 23:55:43,840 INFO 模型进行映射
+2023-12-01 23:55:44,152 INFO 的技术，它可以
+2023-12-01 23:55:44,462 INFO 使开发者无需
+2023-12-01 23:55:44,773 INFO 编写SQL语
+2023-12-01 23:55:45,086 INFO 句，就可以通过
+2023-12-01 23:55:45,396 INFO 操作对象来进行
+2023-12-01 23:55:45,702 INFO 数据库操作。
+2023-12-01 23:55:46,014 INFO Python中
+2023-12-01 23:55:46,330 INFO 有很多用于ORM
+2023-12-01 23:55:46,641 INFO 的库，比如SQL
+2023-12-01 23:55:46,949 INFO Alchemy和
+2023-12-01 23:55:47,261 INFO Django的
+2023-12-01 23:55:47,573 INFO ORM。
+
+下
+2023-12-01 23:55:47,885 INFO 面给出一个使用
+2023-12-01 23:55:48,200 INFO SQLAlchemy进行
+2023-12-01 23:55:48,506 INFO ORM操作的
+2023-12-01 23:55:48,819 INFO 详细代码实例
+2023-12-01 23:55:49,128 INFO ：
+
+首先，
+2023-12-01 23:55:49,440 INFO 我们需要安装
+2023-12-01 23:55:49,753 INFO SQLAlchemy库
+2023-12-01 23:55:50,060 INFO ，可以通过以下
+2023-12-01 23:55:50,371 INFO 命令在命令行
+2023-12-01 23:55:50,683 INFO 中安装：
+
+```
+2023-12-01 23:55:50,995 INFO shell
+
+2023-12-01 23:55:51,303 INFO pip install sqlalchemy
+2023-12-01 23:55:51,615 INFO 
+```
+
+然
+2023-12-01 23:55:51,927 INFO 后，我们创建一个
+2023-12-01 23:55:52,240 INFO Python文件
+2023-12-01 23:55:52,547 INFO ，比如`orm_example
+2023-12-01 23:55:52,857 INFO .py`，并
+2023-12-01 23:55:53,166 INFO 导入`sqlalchemy
+2023-12-01 23:55:53,481 INFO `模块和相关的
+2023-12-01 23:55:53,790 INFO 类：
+
+```python
+2023-12-01 23:55:54,104 INFO 
+from sqlalchemy
+2023-12-01 23:55:54,414 INFO  import create
+2023-12-01 23:55:54,725 INFO _engine,
+2023-12-01 23:55:55,037 INFO  Column,
+2023-12-01 23:55:55,349 INFO  Integer,
+2023-12-01 23:55:55,661 INFO  String
+
+2023-12-01 23:55:55,975 INFO from sqlalchemy.orm
+2023-12-01 23:55:56,284 INFO  import session
+2023-12-01 23:55:56,596 INFO maker
+
+2023-12-01 23:55:56,910 INFO from sqlalchemy.ext
+2023-12-01 23:55:57,220 INFO .declarative
+2023-12-01 23:55:57,534 INFO  import declar
+2023-12-01 23:55:57,842 INFO ative_base
+2023-12-01 23:55:58,155 INFO 
+```
+
+接
+2023-12-01 23:55:58,469 INFO 下来，我们创建
+2023-12-01 23:55:58,781 INFO 数据库连接：
+
+
+2023-12-01 23:55:59,095 INFO ```python
+
+2023-12-01 23:55:59,407 INFO # 创建数据库连接
+2023-12-01 23:55:59,718 INFO 
+engine =
+2023-12-01 23:56:00,028 INFO  create_engine
+2023-12-01 23:56:00,342 INFO ('sqlite:///
+2023-12-01 23:56:00,654 INFO my_database.db
+2023-12-01 23:56:00,963 INFO ', echo=True
+2023-12-01 23:56:01,277 INFO )
+
+# 创建会
+2023-12-01 23:56:01,590 INFO 话工厂
+Session =
+2023-12-01 23:56:01,901 INFO  sessionmaker
+2023-12-01 23:56:02,215 INFO (bind=
+2023-12-01 23:56:02,526 INFO engine)
+
+2023-12-01 23:56:02,835 INFO session =
+2023-12-01 23:56:03,147 INFO  Session()
+
+2023-12-01 23:56:03,460 INFO ```
+
+然
+2023-12-01 23:56:03,768 INFO 后，我们定义一个
+2023-12-01 23:56:04,081 INFO ORM模型类
+2023-12-01 23:56:04,393 INFO ，该类对应于
+2023-12-01 23:56:04,703 INFO 数据库中的一
+2023-12-01 23:56:05,014 INFO 张表：
+
+```
+2023-12-01 23:56:05,325 INFO python
+
+2023-12-01 23:56:05,639 INFO # 创建ORM模
+2023-12-01 23:56:05,947 INFO 型基类
+Base =
+2023-12-01 23:56:06,258 INFO  declarative
+2023-12-01 23:56:06,573 INFO _base()
+
+
+2023-12-01 23:56:06,888 INFO # 定义ORM模
+2023-12-01 23:56:07,199 INFO 型类
+class User
+2023-12-01 23:56:07,509 INFO (Base):
+
+2023-12-01 23:56:07,823 INFO     __tablename
+2023-12-01 23:56:08,138 INFO __ = 'users
+2023-12-01 23:56:08,451 INFO '
+
+    id
+2023-12-01 23:56:08,760 INFO  = Column(Integer
+2023-12-01 23:56:09,072 INFO , primary_key
+2023-12-01 23:56:09,381 INFO =True)
+
+2023-12-01 23:56:09,696 INFO     name =
+2023-12-01 23:56:10,008 INFO  Column(String
+2023-12-01 23:56:10,319 INFO )
+    age
+2023-12-01 23:56:10,629 INFO  = Column(Integer
+2023-12-01 23:56:10,940 INFO )
+```
+
+接
+2023-12-01 23:56:11,254 INFO 下来，我们可以
+2023-12-01 23:56:11,564 INFO 使用该模型类
+2023-12-01 23:56:11,878 INFO 进行数据库操作
+2023-12-01 23:56:12,188 INFO ，比如插入数据
+2023-12-01 23:56:12,500 INFO 、更新数据和
+2023-12-01 23:56:12,810 INFO 查询数据：
+
+```
+2023-12-01 23:56:13,120 INFO python
+
+2023-12-01 23:56:13,433 INFO # 创建表
+
+2023-12-01 23:56:13,740 INFO Base.metadata.create
+2023-12-01 23:56:14,051 INFO _all(engine)
+
+
+2023-12-01 23:56:14,364 INFO # 插入数据
+
+2023-12-01 23:56:14,676 INFO user = User
+2023-12-01 23:56:14,989 INFO (name='
+2023-12-01 23:56:15,299 INFO Alice',
+2023-12-01 23:56:15,611 INFO  age=18
+2023-12-01 23:56:15,925 INFO )
+session.add
+2023-12-01 23:56:16,234 INFO (user)
+
+2023-12-01 23:56:16,545 INFO session.commit
+2023-12-01 23:56:16,856 INFO ()
+
+# 更新
+2023-12-01 23:56:17,164 INFO 数据
+user.age
+2023-12-01 23:56:17,476 INFO  = 20
+
+2023-12-01 23:56:17,785 INFO session.commit
+2023-12-01 23:56:18,099 INFO ()
+
+# 查询
+2023-12-01 23:56:18,408 INFO 数据
+users =
+2023-12-01 23:56:18,716 INFO  session.query
+2023-12-01 23:56:19,028 INFO (User).
+2023-12-01 23:56:19,344 INFO all()
+for
+2023-12-01 23:56:19,654 INFO  user in
+2023-12-01 23:56:19,965 INFO  users:
+
+2023-12-01 23:56:20,274 INFO     print(user
+2023-12-01 23:56:20,584 INFO .name,
+2023-12-01 23:56:20,897 INFO  user.age
+2023-12-01 23:56:21,211 INFO )
+```
+
+最
+2023-12-01 23:56:21,522 INFO 后，记得关闭数据库
+2023-12-01 23:56:21,832 INFO 连接：
+
+```
+2023-12-01 23:56:22,143 INFO python
+
+2023-12-01 23:56:22,454 INFO # 关闭会话
+2023-12-01 23:56:22,762 INFO 
+session.close
+2023-12-01 23:56:23,076 INFO ()
+```
+
+
+2023-12-01 23:56:23,389 INFO 以上就是使用SQL
+2023-12-01 23:56:23,699 INFO Alchemy进行
+2023-12-01 23:56:24,012 INFO ORM操作的
+2023-12-01 23:56:24,323 INFO 详细代码实例
+2023-12-01 23:56:24,635 INFO 。当然，实际
+2023-12-01 23:56:24,946 INFO 使用中还可以进行
+2023-12-01 23:56:25,256 INFO 更多复杂的操作
+2023-12-01 23:56:25,566 INFO ，比如多表查询
+2023-12-01 23:56:25,871 INFO 、条件查询等
+2023-12-01 23:56:26,183 INFO 。同时，各个
+2023-12-01 23:56:26,494 INFO ORM库的使用
+2023-12-01 23:56:26,804 INFO 方式可能会有
+2023-12-01 23:56:27,119 INFO 所不同，可以根
+2023-12-01 23:56:27,432 INFO 据具体情况进行
+2023-12-01 23:56:27,742 INFO 查阅相关文档
+2023-12-01 23:57:34,707 INFO 用户提问：{'method': 'chat', 'model': 'gpt-3.5-turbo', 'question': 'pip 怎么按照requirements下载第三方依赖到指定的env-sitepackage里'}
+2023-12-01 23:57:36,654 INFO 要按照requirements文件
+2023-12-01 23:57:36,969 INFO 下载第三方依
+2023-12-01 23:57:37,281 INFO 赖到指定的env
+2023-12-01 23:57:37,591 INFO -sitepackage
+2023-12-01 23:57:37,904 INFO 里，可以使用以下
+2023-12-01 23:57:38,215 INFO 命令：
+
+``
+2023-12-01 23:57:38,527 INFO `
+pip install
+2023-12-01 23:57:38,837 INFO  -r requirements.txt
+2023-12-01 23:57:39,148 INFO  -t path/to
+2023-12-01 23:57:39,461 INFO /env-sitepackage
+2023-12-01 23:57:39,773 INFO 
+```
+
+其中
+2023-12-01 23:57:40,083 INFO ，`requirements.txt
+2023-12-01 23:57:40,395 INFO `是包含所有依
+2023-12-01 23:57:40,706 INFO 赖的文件，`
+2023-12-01 23:57:41,015 INFO path/to/env
+2023-12-01 23:57:41,325 INFO -sitepackage
+2023-12-01 23:57:41,637 INFO `是指定的env
+2023-12-01 23:57:41,944 INFO -sitepackage
+2023-12-01 23:57:42,258 INFO 目录的路径。
+2023-12-01 23:58:24,896 INFO 用户提问：{'method': 'chat', 'model': 'gpt-3.5-turbo', 'question': '怎么快速弄一个requirements文件'}
+2023-12-01 23:58:25,767 INFO 要快速创建一个
+2023-12-01 23:58:26,079 INFO  requirements 文件
+2023-12-01 23:58:26,390 INFO ，可以遵循以下
+2023-12-01 23:58:26,701 INFO 步骤：
+
+1
+2023-12-01 23:58:27,012 INFO . 打开终端
+2023-12-01 23:58:27,326 INFO 或命令提示符
+2023-12-01 23:58:27,637 INFO 。
+2. 定位
+2023-12-01 23:58:27,947 INFO 到你的项目文件
+2023-12-01 23:58:28,260 INFO 夹，可以使用 `
+2023-12-01 23:58:28,571 INFO cd` 命令
+2023-12-01 23:58:28,885 INFO 。
+3. 确保
+2023-12-01 23:58:29,195 INFO 已经在项目文件
+2023-12-01 23:58:29,508 INFO 夹中，然后运
+2023-12-01 23:58:29,817 INFO 行以下命令来
+2023-12-01 23:58:30,133 INFO 创建一个虚拟
+2023-12-01 23:58:30,444 INFO 环境（可选）
+2023-12-01 23:58:30,755 INFO ：
+   - 对
+2023-12-01 23:58:31,062 INFO 于 Python 
+2023-12-01 23:58:31,371 INFO 2：`virtualenv
+2023-12-01 23:58:31,684 INFO  venv`
+2023-12-01 23:58:31,989 INFO  
+   - 对
+2023-12-01 23:58:32,301 INFO 于 Python 
+2023-12-01 23:58:32,611 INFO 3：`python -
+2023-12-01 23:58:32,920 INFO m venv v
+2023-12-01 23:58:33,231 INFO env`
+4
+2023-12-01 23:58:33,543 INFO . 激活虚拟
+2023-12-01 23:58:33,855 INFO 环境：
+   -
+2023-12-01 23:58:34,164 INFO  对于 Windows：
+2023-12-01 23:58:34,478 INFO `venv\
+2023-12-01 23:58:34,788 INFO Scripts\
+2023-12-01 23:58:35,098 INFO activate`
+
+2023-12-01 23:58:35,406 INFO    - 对于
+2023-12-01 23:58:35,718 INFO  macOS 和
+2023-12-01 23:58:36,031 INFO  Linux：
+2023-12-01 23:58:36,340 INFO `source v
+2023-12-01 23:58:36,650 INFO env/bin/
+2023-12-01 23:58:36,962 INFO activate`
+
+2023-12-01 23:58:37,273 INFO 5. 安装所
+2023-12-01 23:58:37,585 INFO 需的依赖包，
+2023-12-01 23:58:37,894 INFO 例如：
+   -
+2023-12-01 23:58:38,205 INFO  `pip install
+2023-12-01 23:58:38,514 INFO  package_name
+2023-12-01 23:58:38,825 INFO ` （将 package_name
+2023-12-01 23:58:39,137 INFO  替换为实际
+2023-12-01 23:58:39,451 INFO 的依赖包）
+6
+2023-12-01 23:58:39,762 INFO . 在项目文件
+2023-12-01 23:58:40,074 INFO 夹中创建一个文
+2023-12-01 23:58:40,387 INFO 本文件，命名
+2023-12-01 23:58:40,699 INFO 为 `requirements.txt
+2023-12-01 23:58:41,006 INFO `。
+7. 打
+2023-12-01 23:58:41,316 INFO 开 `requirements.txt
+2023-12-01 23:58:41,628 INFO ` 文件，并将
+2023-12-01 23:58:41,943 INFO 每个安装了的
+2023-12-01 23:58:42,251 INFO 依赖包写入其中
+2023-12-01 23:58:42,563 INFO ，每行一个包
+2023-12-01 23:58:42,874 INFO 名，例如：
+  
+2023-12-01 23:58:43,184 INFO  - ```
+    
+2023-12-01 23:58:43,496 INFO  package_name
+2023-12-01 23:58:43,809 INFO 1
+     package
+2023-12-01 23:58:44,120 INFO _name2
+2023-12-01 23:58:44,431 INFO 
+     ```
+
+2023-12-01 23:58:44,744 INFO 8. 保存并
+2023-12-01 23:58:45,057 INFO 关闭 `requirements.txt
+2023-12-01 23:58:45,369 INFO ` 文件。
+9
+2023-12-01 23:58:45,678 INFO . 停止虚拟
+2023-12-01 23:58:45,990 INFO 环境，可以使用
+2023-12-01 23:58:46,302 INFO 以下命令：
+  
+2023-12-01 23:58:46,612 INFO  - `deactivate
+2023-12-01 23:58:46,920 INFO `
+10. 现
+2023-12-01 23:58:47,233 INFO 在你已经创建了
+2023-12-01 23:58:47,547 INFO 一个 requirements 文件
+2023-12-01 23:58:47,860 INFO ，其中包含了
+2023-12-01 23:58:48,168 INFO 项目的依赖项
+2023-12-01 23:58:48,480 INFO 。将该文件与
+2023-12-01 23:58:48,793 INFO 项目一起共享
+2023-12-01 23:58:49,106 INFO 或部署即可。
+
+
+2023-12-01 23:58:49,416 INFO 这些步骤可以帮
+2023-12-01 23:58:49,723 INFO 助你快速创建一个
+2023-12-01 23:58:50,035 INFO  requirements 文件
+2023-12-01 23:58:50,346 INFO ，以便记录和
+2023-12-01 23:58:50,656 INFO 管理项目所需
+2023-12-02 00:05:09,875 INFO 用户提问：{'method': 'chat', 'model': 'gpt-3.5-turbo', 'question': '启动venv虚拟环境后怎么用pip把第三方依赖下到venv里'}
+2023-12-02 00:05:11,949 INFO 使用venv
+2023-12-02 00:05:12,267 INFO 虚拟环境后，
+2023-12-02 00:05:12,577 INFO 可以按照以下步
+2023-12-02 00:05:12,890 INFO 骤使用pip安
+2023-12-02 00:05:13,205 INFO 装第三方依赖
+2023-12-02 00:05:13,510 INFO 到venv中
+2023-12-02 00:05:13,821 INFO ：
+
+1. 打
+2023-12-02 00:05:14,133 INFO 开命令行终端
+2023-12-02 00:05:14,444 INFO ，进入venv
+2023-12-02 00:05:14,755 INFO 虚拟环境所在
+2023-12-02 00:05:15,066 INFO 的目录。
+
+2
+2023-12-02 00:05:15,377 INFO . 激活venv
+2023-12-02 00:05:15,689 INFO 虚拟环境。在
+2023-12-02 00:05:16,002 INFO Windows系统
+2023-12-02 00:05:16,295 INFO 中，可以使用以下
+2023-12-02 00:05:16,609 INFO 命令激活venv
+2023-12-02 00:05:16,912 INFO ：
+```
+ven
+2023-12-02 00:05:17,224 INFO v\Scripts\
+2023-12-02 00:05:17,535 INFO activate
+
+2023-12-02 00:05:17,849 INFO ```
+在mac
+2023-12-02 00:05:18,163 INFO OS和Linux系统
+2023-12-02 00:05:18,471 INFO 中，可以使用以下
+2023-12-02 00:05:18,787 INFO 命令激活venv
+2023-12-02 00:05:19,100 INFO ：
+```
+source
+2023-12-02 00:05:19,407 INFO  venv/bin
+2023-12-02 00:05:19,722 INFO /activate
+
+2023-12-02 00:05:20,033 INFO ```
+
+3
+2023-12-02 00:05:20,344 INFO . 激活虚拟
+2023-12-02 00:05:20,657 INFO 环境后，可以使用
+2023-12-02 00:05:20,966 INFO pip命令来
+2023-12-02 00:05:21,284 INFO 安装第三方依
+2023-12-02 00:05:21,594 INFO 赖包。例如，
+2023-12-02 00:05:21,904 INFO 要安装名称为
+2023-12-02 00:05:22,216 INFO `numpy`
+2023-12-02 00:05:22,529 INFO 的第三方库，
+2023-12-02 00:05:22,836 INFO 可以使用以下命
+2023-12-02 00:05:23,148 INFO 令：
+```
+
+2023-12-02 00:05:23,460 INFO pip install numpy
+2023-12-02 00:05:23,772 INFO 
+```
+
+4
+2023-12-02 00:05:24,083 INFO . pip将
+2023-12-02 00:05:24,399 INFO 会从PyPI（
+2023-12-02 00:05:24,710 INFO Python Package
+2023-12-02 00:05:25,017 INFO  Index）
+2023-12-02 00:05:25,331 INFO 上下载并安装
+2023-12-02 00:05:25,640 INFO `numpy`
+2023-12-02 00:05:25,956 INFO 库及其依赖项
+2023-12-02 00:05:26,267 INFO 。安装完成后
+2023-12-02 00:05:26,577 INFO ，可以使用`
+2023-12-02 00:05:26,889 INFO pip show`
+2023-12-02 00:05:27,205 INFO 命令来查看已
+2023-12-02 00:05:27,516 INFO 安装的包，例如
+2023-12-02 00:05:27,832 INFO ：
+```
+pip
+2023-12-02 00:05:28,141 INFO  show numpy
+2023-12-02 00:05:28,454 INFO 
+```
+
+5
+2023-12-02 00:05:28,745 INFO . 当完成所有
+2023-12-02 00:05:29,058 INFO 依赖包的安装
+2023-12-02 00:05:29,368 INFO 后，可以使用`
+2023-12-02 00:05:29,676 INFO pip freeze`
+2023-12-02 00:05:29,988 INFO 命令将所有已
+2023-12-02 00:05:30,298 INFO 安装的包及其
+2023-12-02 00:05:30,609 INFO 版本信息导出
+2023-12-02 00:05:30,923 INFO 到一个文本文件
+2023-12-02 00:05:31,238 INFO 中。例如，可以
+2023-12-02 00:05:31,546 INFO 使用以下命令
+2023-12-02 00:05:31,859 INFO 将依赖项导出
+2023-12-02 00:05:32,170 INFO 到`requirements.txt
+2023-12-02 00:05:32,481 INFO `文件中：
+``
+2023-12-02 00:05:32,792 INFO `
+pip freeze
+2023-12-02 00:05:33,099 INFO  > requirements.txt
+2023-12-02 00:05:33,411 INFO 
+```
+
+这
+2023-12-02 00:05:33,723 INFO 样，下一次需要
+2023-12-02 00:05:34,051 INFO 重新创建相同
+2023-12-02 00:05:34,364 INFO 环境时，可以使用
+2023-12-02 00:05:34,670 INFO 该文件来安装
+2023-12-02 00:05:34,986 INFO 相同的依赖项
+2023-12-02 00:05:35,301 INFO 。例如，可以使用
+2023-12-02 00:05:35,610 INFO 以下命令从`
+2023-12-02 00:05:35,918 INFO requirements.txt
+2023-12-02 00:05:36,228 INFO `文件中安装
+2023-12-02 00:05:36,540 INFO 依赖项：
+``
+2023-12-02 00:05:36,849 INFO `
+pip install
+2023-12-02 00:05:37,161 INFO  -r requirements.txt
+2023-12-02 00:05:37,475 INFO 
+```
+
+以上
+2023-12-02 00:05:37,784 INFO 就是使用pip将
+2023-12-02 00:05:38,096 INFO 第三方依赖安
+2023-12-02 00:05:38,407 INFO 装到venv
+2023-12-02 00:05:38,719 INFO 虚拟环境的步
+2023-12-02 00:08:50,099 INFO websocket服务启动成功
+2023-12-02 00:08:50,133 INFO server listening on 0.0.0.0:8090
+2023-12-02 00:09:42,850 INFO connection open
+2023-12-02 00:10:06,437 INFO 用户提问：{'method': 'chat', 'model': 'gpt-4-32k', 'question': 'python的orm怎么使用？给出详细的代码实例'}
+2023-12-02 00:10:10,699 INFO ORM，全称
+2023-12-02 00:10:11,003 INFO 是 Object Rel
+2023-12-02 00:10:11,316 INFO ational Mapping
+2023-12-02 00:10:11,630 INFO ，即对象-关
+2023-12-02 00:10:11,942 INFO 系映射。在Python
+2023-12-02 00:10:12,253 INFO 中，常用的ORM
+2023-12-02 00:10:12,565 INFO 框架有SQLAlchemy
+2023-12-02 00:10:12,877 INFO 和Django ORM
+2023-12-02 00:10:13,193 INFO 。下面给出用
+2023-12-02 00:10:13,504 INFO 这两种ORM框
+2023-12-02 00:10:13,814 INFO 架的代码示例
+2023-12-02 00:10:14,122 INFO 。
+
+**1
+2023-12-02 00:10:14,438 INFO .SQLAlchemy例
+2023-12-02 00:10:14,748 INFO 子:**
+
+首
+2023-12-02 00:10:15,064 INFO 先，你需要安
+2023-12-02 00:10:15,373 INFO 装必要的包：
+
+2023-12-02 00:10:15,686 INFO ```bash
+
+2023-12-02 00:10:15,998 INFO pip install sqlalchemy
+2023-12-02 00:10:16,312 INFO 
+```
+
+然
+2023-12-02 00:10:16,626 INFO 后我们来创建一个
+2023-12-02 00:10:16,935 INFO SQLite数据库
+2023-12-02 00:10:17,245 INFO 和一个用户表
+2023-12-02 00:10:17,560 INFO ，并向其中添加
+2023-12-02 00:10:17,872 INFO 一些数据：
+```
+2023-12-02 00:10:18,185 INFO python
+
+2023-12-02 00:10:18,496 INFO from sqlalchemy import
+2023-12-02 00:10:18,807 INFO  create_engine
+2023-12-02 00:10:19,119 INFO , Table,
+2023-12-02 00:10:19,430 INFO  Column,
+2023-12-02 00:10:19,743 INFO  Integer,
+2023-12-02 00:10:20,053 INFO  String,
+2023-12-02 00:10:20,366 INFO  MetaData
+2023-12-02 00:10:20,677 INFO , ForeignKey
+
+
+2023-12-02 00:10:20,989 INFO # 创建数据库引
+2023-12-02 00:10:21,301 INFO 擎
+engine =
+2023-12-02 00:10:21,613 INFO  create_engine
+2023-12-02 00:10:21,925 INFO ('sqlite:///
+2023-12-02 00:10:22,235 INFO college.db
+2023-12-02 00:10:22,547 INFO ', echo =
+2023-12-02 00:10:22,859 INFO  True)
+
+
+2023-12-02 00:10:23,172 INFO # 创建元数据
+2023-12-02 00:10:23,483 INFO 实例
+meta =
+2023-12-02 00:10:23,796 INFO  MetaData
+2023-12-02 00:10:24,106 INFO ()
+
+students =
+2023-12-02 00:10:24,418 INFO  Table(
+
+2023-12-02 00:10:24,734 INFO    'students',
+2023-12-02 00:10:25,046 INFO  meta,
+2023-12-02 00:10:25,362 INFO  
+   Column('
+2023-12-02 00:10:25,669 INFO id', Integer,
+2023-12-02 00:10:25,981 INFO  primary_key
+2023-12-02 00:10:26,294 INFO  = True),
+2023-12-02 00:10:26,608 INFO  
+   Column('
+2023-12-02 00:10:26,920 INFO name', String
+2023-12-02 00:10:27,228 INFO ), 
+   Column
+2023-12-02 00:10:27,542 INFO ('lastname',
+2023-12-02 00:10:27,850 INFO  String),
+2023-12-02 00:10:28,163 INFO  
+)
+
+meta
+2023-12-02 00:10:28,474 INFO .create_all
+2023-12-02 00:10:28,785 INFO (engine)
+
+2023-12-02 00:10:29,100 INFO ```
+
+这
+2023-12-02 00:10:29,413 INFO 就简单地创建了
+2023-12-02 00:10:29,722 INFO 一个包含id、
+2023-12-02 00:10:30,037 INFO name和lastname
+2023-12-02 00:10:30,347 INFO 的学生表。
+
+**
+2023-12-02 00:10:30,663 INFO 2. Django ORM
+2023-12-02 00:10:30,975 INFO 例子:**
+
+首
+2023-12-02 00:10:31,288 INFO 先，你需要安
+2023-12-02 00:10:31,599 INFO 装Django，
+2023-12-02 00:10:31,914 INFO 可以通过pip指
+2023-12-02 00:10:32,224 INFO 令安装：
+```
+2023-12-02 00:10:32,533 INFO bash
+pip
+2023-12-02 00:10:32,843 INFO  install Django
+2023-12-02 00:10:33,159 INFO  
+```
+
+然
+2023-12-02 00:10:33,471 INFO 后你需要创建一个
+2023-12-02 00:10:33,786 INFO Django项目
+2023-12-02 00:10:34,099 INFO ，并在该项目中
+2023-12-02 00:10:34,411 INFO 创建一个应用
+2023-12-02 00:10:34,721 INFO ：
+
+```bash
+2023-12-02 00:10:35,033 INFO 
+django-admin
+2023-12-02 00:10:35,344 INFO  startproject
+2023-12-02 00:10:35,659 INFO  MyProject
+
+2023-12-02 00:10:35,971 INFO cd MyProject
+2023-12-02 00:10:36,282 INFO 
+django-admin
+2023-12-02 00:10:36,593 INFO  startapp
+2023-12-02 00:10:36,905 INFO  MyApp
+
+2023-12-02 00:10:37,219 INFO ```
+
+假
+2023-12-02 00:10:37,530 INFO 设我们在MyApp
+2023-12-02 00:10:37,847 INFO 应用中创建一个
+2023-12-02 00:10:38,153 INFO Blog模型
+2023-12-02 00:10:38,469 INFO ：
+
+```python
+2023-12-02 00:10:38,778 INFO 
+from django
+2023-12-02 00:10:39,091 INFO .db import models
+2023-12-02 00:10:39,401 INFO 
+
+class Blog
+2023-12-02 00:10:39,713 INFO (models.Model
+2023-12-02 00:10:40,024 INFO ):
+    title
+2023-12-02 00:10:40,336 INFO  = models.CharField
+2023-12-02 00:10:40,649 INFO (max_length=
+2023-12-02 00:10:40,959 INFO 200)
+   
+2023-12-02 00:10:41,270 INFO  description =
+2023-12-02 00:10:41,576 INFO  models.TextField
+2023-12-02 00:10:41,887 INFO ()
+
+    def
+2023-12-02 00:10:42,202 INFO  __str__(
+2023-12-02 00:10:42,514 INFO self):
+       
+2023-12-02 00:10:42,823 INFO  return self
+2023-12-02 00:10:43,135 INFO .title
+
+2023-12-02 00:10:43,447 INFO ```
+
+上
+2023-12-02 00:10:43,761 INFO 述代码会创建一个
+2023-12-02 00:10:44,076 INFO 拥有title属性
+2023-12-02 00:10:44,386 INFO 和description属性
+2023-12-02 00:10:44,697 INFO 的Blog模
+2023-12-02 00:10:45,010 INFO 型，并且当我们
+2023-12-02 00:10:45,320 INFO 在代码中打印
+2023-12-02 00:10:45,630 INFO 一个Blog对象
+2023-12-02 00:10:45,938 INFO 时，就会默认调
+2023-12-02 00:10:46,249 INFO 用`__str__
+2023-12-02 00:10:46,568 INFO `函数将title属性
+2023-12-02 00:10:46,874 INFO 作为字符串返回
+2023-12-02 00:10:47,188 INFO 。
+
+注意：
+2023-12-02 00:10:47,501 INFO 这只是一般的
+2023-12-02 00:10:47,812 INFO 使用案例, 在
+2023-12-02 00:10:48,120 INFO 真实的开发坏
+2023-12-02 00:10:48,428 INFO 境下, 要结
+2023-12-02 00:10:48,743 INFO 合实际需要选择
+2023-12-02 00:10:49,052 INFO 合适的ORM或
+2023-12-02 00:10:49,367 INFO 者是直接操作数据库
+2023-12-02 00:14:47,041 INFO 用户提问：{'method': 'chat', 'model': 'gpt-4-32k', 'question': 'python orm怎么使用pgsql，请给出详细的代码实例'}
+2023-12-02 00:14:52,848 INFO Python的
+2023-12-02 00:14:53,164 INFO 一个广泛使用的
+2023-12-02 00:14:53,478 INFO ORM框架是
+2023-12-02 00:14:53,784 INFO SQLAlchemy，
+2023-12-02 00:14:54,094 INFO 下面是一个使用
+2023-12-02 00:14:54,404 INFO SQLAlchemy连接
+2023-12-02 00:14:54,717 INFO 到PostgreSQL
+2023-12-02 00:14:55,026 INFO 数据库的例子
+2023-12-02 00:14:55,340 INFO ：
+
+首先，
+2023-12-02 00:14:55,651 INFO 需要安装最新
+2023-12-02 00:14:55,963 INFO 版本的SQLAlchemy
+2023-12-02 00:14:56,274 INFO 和psycopg2
+2023-12-02 00:14:56,582 INFO 库，可通过pip
+2023-12-02 00:14:56,898 INFO 进行安装：
+
+```
+2023-12-02 00:14:57,207 INFO shell
+
+2023-12-02 00:14:57,519 INFO pip install sqlalchemy
+2023-12-02 00:14:57,827 INFO  psycopg2
+2023-12-02 00:14:58,137 INFO 
+```
+
+然
+2023-12-02 00:14:58,446 INFO 后，需要创建一个
+2023-12-02 00:14:58,759 INFO 数据库连接引
+2023-12-02 00:14:59,068 INFO 擎并建立一个会
+2023-12-02 00:14:59,379 INFO 话：
+
+```python
+2023-12-02 00:14:59,687 INFO 
+from sqlalchemy
+2023-12-02 00:14:59,997 INFO  import create
+2023-12-02 00:15:00,309 INFO _engine
+
+2023-12-02 00:15:00,619 INFO from sqlalchemy.orm
+2023-12-02 00:15:00,926 INFO  import session
+2023-12-02 00:15:01,235 INFO maker
+
+
+2023-12-02 00:15:01,544 INFO # 创建连接字符串
+2023-12-02 00:15:01,857 INFO 
+db_string =
+2023-12-02 00:15:02,165 INFO  "postgresql://
+2023-12-02 00:15:02,475 INFO username:
+2023-12-02 00:15:02,787 INFO password@
+2023-12-02 00:15:03,096 INFO localhost:
+2023-12-02 00:15:03,407 INFO 5432/mydatabase
+2023-12-02 00:15:03,718 INFO "
+
+# 创建数据库
+2023-12-02 00:15:04,033 INFO 引擎
+engine =
+2023-12-02 00:15:04,343 INFO  create_engine
+2023-12-02 00:15:04,653 INFO (db_string)
+
+
+2023-12-02 00:15:04,964 INFO # 创建会话
+2023-12-02 00:15:05,278 INFO 
+Session =
+2023-12-02 00:15:05,586 INFO  sessionmaker
+2023-12-02 00:15:05,897 INFO (bind=
+2023-12-02 00:15:06,208 INFO engine)
+
+2023-12-02 00:15:06,522 INFO session =
+2023-12-02 00:15:06,830 INFO  Session()
+
+2023-12-02 00:15:07,139 INFO ```
+
+接
+2023-12-02 00:15:07,451 INFO 下来，可以定义
+2023-12-02 00:15:07,763 INFO 对象模型。SQL
+2023-12-02 00:15:08,074 INFO Alchemy会
+2023-12-02 00:15:08,387 INFO 负责把这些对象
+2023-12-02 00:15:08,698 INFO 模型转化为SQL
+2023-12-02 00:15:09,008 INFO 语句：
+
+```
+2023-12-02 00:15:09,316 INFO python
+
+2023-12-02 00:15:09,632 INFO from sqlalchemy import
+2023-12-02 00:15:09,942 INFO  Column,
+2023-12-02 00:15:10,252 INFO  Integer,
+2023-12-02 00:15:10,564 INFO  String
+
+2023-12-02 00:15:10,876 INFO from sqlalchemy.ext
+2023-12-02 00:15:11,184 INFO .declarative
+2023-12-02 00:15:11,492 INFO  import declar
+2023-12-02 00:15:11,803 INFO ative_base
+2023-12-02 00:15:12,118 INFO 
+
+Base =
+2023-12-02 00:15:12,427 INFO  declarative
+2023-12-02 00:15:12,739 INFO _base()
+
+
+2023-12-02 00:15:13,052 INFO class User
+2023-12-02 00:15:13,361 INFO (Base):
+
+2023-12-02 00:15:13,677 INFO     __tablename
+2023-12-02 00:15:13,988 INFO __ = 'users
+2023-12-02 00:15:14,301 INFO '
+
+    id
+2023-12-02 00:15:14,609 INFO  = Column(Integer
+2023-12-02 00:15:14,921 INFO , primary_key
+2023-12-02 00:15:15,230 INFO =True)
+
+2023-12-02 00:15:15,542 INFO     name =
+2023-12-02 00:15:15,854 INFO  Column(String
+2023-12-02 00:15:16,166 INFO )
+    fullname
+2023-12-02 00:15:16,479 INFO  = Column(String
+2023-12-02 00:15:16,790 INFO )
+    password
+2023-12-02 00:15:17,101 INFO  = Column(String
+2023-12-02 00:15:17,411 INFO )
+```
+
+现
+2023-12-02 00:15:17,728 INFO 在，可以通过ORM
+2023-12-02 00:15:18,034 INFO 进行查询和操作
+2023-12-02 00:15:18,346 INFO 数据库：
+
+```
+2023-12-02 00:15:18,655 INFO python
+
+2023-12-02 00:15:18,965 INFO # 查找所有用户
+2023-12-02 00:15:19,280 INFO 
+for user in
+2023-12-02 00:15:19,588 INFO  session.query
+2023-12-02 00:15:19,896 INFO (User).
+2023-12-02 00:15:20,207 INFO all():
+   
+2023-12-02 00:15:20,517 INFO  print(user
+2023-12-02 00:15:20,830 INFO .name)
+
+
+2023-12-02 00:15:21,144 INFO # 通过id查
+2023-12-02 00:15:21,452 INFO 找用户
+user =
+2023-12-02 00:15:21,765 INFO  session.query
+2023-12-02 00:15:22,075 INFO (User).
+2023-12-02 00:15:22,385 INFO filter(User
+2023-12-02 00:15:22,693 INFO .id==5
+2023-12-02 00:15:23,003 INFO ).one()
+
+2023-12-02 00:15:23,316 INFO print(user
+2023-12-02 00:15:23,626 INFO .name)
+
+
+2023-12-02 00:15:23,936 INFO # 创建一个新
+2023-12-02 00:15:24,249 INFO 用户
+new_user
+2023-12-02 00:15:24,555 INFO  = User(name
+2023-12-02 00:15:24,867 INFO ='newuser
+2023-12-02 00:15:25,177 INFO ', fullname='
+2023-12-02 00:15:25,484 INFO New User',
+2023-12-02 00:15:25,795 INFO  password='
+2023-12-02 00:15:26,104 INFO password')
+
+2023-12-02 00:15:26,415 INFO session.add
+2023-12-02 00:15:26,729 INFO (new_user)
+
+2023-12-02 00:15:27,039 INFO session.commit
+2023-12-02 00:15:27,351 INFO ()
+```
+
+
+2023-12-02 00:15:27,662 INFO 以上就是使用Python
+2023-12-02 00:15:27,973 INFO 的SQLAlchemy ORM
+2023-12-02 00:15:28,286 INFO 库来操作PostgreSQL
+2023-12-02 00:15:28,599 INFO 数据库的基本
+2023-12-02 00:15:28,913 INFO 步骤和代码例
+2023-12-02 00:15:29,231 INFO 子。注意替换
+2023-12-02 00:15:29,544 INFO 连接字符串中
+2023-12-02 00:15:29,852 INFO 的用户名(username)
+2023-12-02 00:15:30,161 INFO 、密码(password)
+2023-12-02 00:15:30,475 INFO 、数据库地址(
+2023-12-02 00:15:30,785 INFO localhost)
+2023-12-02 00:15:31,100 INFO 、端口号(543
+2023-12-02 00:15:31,414 INFO 2)和数据库名
+2023-12-02 00:15:31,727 INFO (mydatabase)
+2023-12-02 00:15:32,037 INFO 为你自己的设置
+2023-12-02 00:23:57,135 INFO 用户提问：{'method': 'chat', 'model': 'gpt-4-32k', 'question': 'failed to load sql modules into the database cluster'}
+2023-12-02 00:24:00,046 INFO The error message
+2023-12-02 00:24:00,351 INFO  "Failed to
+2023-12-02 00:24:00,663 INFO  load SQL
+2023-12-02 00:24:00,975 INFO  modules into
+2023-12-02 00:24:01,286 INFO  the database cluster
+2023-12-02 00:24:01,596 INFO " appears when
+2023-12-02 00:24:01,910 INFO  there is
+2023-12-02 00:24:02,222 INFO  an issue in
+2023-12-02 00:24:02,534 INFO  loading SQL
+2023-12-02 00:24:02,844 INFO  modules or
+2023-12-02 00:24:03,157 INFO  extensions,
+2023-12-02 00:24:03,472 INFO  which can
+2023-12-02 00:24:03,785 INFO  be caused due
+2023-12-02 00:24:04,094 INFO  to various reasons
+2023-12-02 00:24:04,404 INFO .
+
+1. Ins
+2023-12-02 00:24:04,717 INFO ufficient Permission
+2023-12-02 00:24:05,029 INFO : The user
+2023-12-02 00:24:05,340 INFO  may lack the
+2023-12-02 00:24:05,650 INFO  necessary permissions
+2023-12-02 00:24:05,962 INFO  to add modules
+2023-12-02 00:24:06,275 INFO  or extensions to
+2023-12-02 00:24:06,582 INFO  the database.
+2023-12-02 00:24:06,893 INFO  Some modules
+2023-12-02 00:24:07,204 INFO  may require super
+2023-12-02 00:24:07,517 INFO user or admin
+2023-12-02 00:24:07,827 INFO  privileges to
+2023-12-02 00:24:08,139 INFO  be loaded.
+
+
+2023-12-02 00:24:08,452 INFO 2. Modules Not
+2023-12-02 00:24:08,758 INFO  Installed:
+2023-12-02 00:24:09,068 INFO  The required modules
+2023-12-02 00:24:09,378 INFO  might not
+2023-12-02 00:24:09,688 INFO  be installed in
+2023-12-02 00:24:09,999 INFO  the local.
+2023-12-02 00:24:10,308 INFO  Therefore,
+2023-12-02 00:24:10,618 INFO  it's unable
+2023-12-02 00:24:10,932 INFO  to load it
+2023-12-02 00:24:11,241 INFO  into the
+2023-12-02 00:24:11,553 INFO  database cluster
+2023-12-02 00:24:11,865 INFO .
+
+3. In
+2023-12-02 00:24:12,174 INFO compatible Version
+2023-12-02 00:24:12,487 INFO : The modules
+2023-12-02 00:24:12,798 INFO  may not be
+2023-12-02 00:24:13,110 INFO  compatible with
+2023-12-02 00:24:13,425 INFO  the version of
+2023-12-02 00:24:13,737 INFO  the database you
+2023-12-02 00:24:14,048 INFO 're running.
+
+
+2023-12-02 00:24:14,360 INFO 4. Disk Space
+2023-12-02 00:24:14,669 INFO : Lack of
+2023-12-02 00:24:14,982 INFO  enough storage
+2023-12-02 00:24:15,297 INFO  can also be
+2023-12-02 00:24:15,606 INFO  one reason.
+
+
+2023-12-02 00:24:15,920 INFO 5. Incorrect Module
+2023-12-02 00:24:16,233 INFO  Path:
+2023-12-02 00:24:16,540 INFO  If the module
+2023-12-02 00:24:16,856 INFO  path defined
+2023-12-02 00:24:17,169 INFO  in the postgres
+2023-12-02 00:24:17,476 INFO ql.conf file
+2023-12-02 00:24:17,790 INFO  is incorrect.
+2023-12-02 00:24:18,105 INFO  
+
+To resolve
+2023-12-02 00:24:18,413 INFO  this issue
+2023-12-02 00:24:18,727 INFO ,
+
+1. Check
+2023-12-02 00:24:19,037 INFO  if the users
+2023-12-02 00:24:19,345 INFO  have correct
+2023-12-02 00:24:19,658 INFO  permission to
+2023-12-02 00:24:19,970 INFO  load the
+2023-12-02 00:24:20,283 INFO  module.
+
+2023-12-02 00:24:20,592 INFO 2. Make sure
+2023-12-02 00:24:20,904 INFO  modules are
+2023-12-02 00:24:21,213 INFO  properly installed
+2023-12-02 00:24:21,523 INFO  and they are
+2023-12-02 00:24:21,837 INFO  compatible with
+2023-12-02 00:24:22,145 INFO  current SQL
+2023-12-02 00:24:22,457 INFO  version.
+
+2023-12-02 00:24:22,772 INFO 3. Verify if
+2023-12-02 00:24:23,079 INFO  you have enough
+2023-12-02 00:24:23,408 INFO  disk space
+2023-12-02 00:24:23,717 INFO .
+4. Ensure the
+2023-12-02 00:24:24,027 INFO  correct path
+2023-12-02 00:24:24,342 INFO  of the SQL
+2023-12-02 00:24:24,650 INFO  modules is
+2023-12-02 00:24:24,961 INFO  set in your
+2023-12-02 00:24:25,273 INFO  configuration.
+
+
+2023-12-02 00:24:25,585 INFO For a more
+2023-12-02 00:24:25,896 INFO  specific solution
+2023-12-02 00:24:26,207 INFO , it would help
+2023-12-02 00:24:26,518 INFO  to know the
+2023-12-02 00:24:26,826 INFO  type of
+2023-12-02 00:24:27,138 INFO  database,
+2023-12-02 00:24:27,450 INFO  the version of
+2023-12-02 00:24:27,764 INFO  the database,
+2023-12-02 00:24:28,076 INFO  and any specific
+2023-12-02 00:24:28,386 INFO  modules you
+2023-12-02 00:24:28,701 INFO  are trying to
+2023-12-02 00:24:29,011 INFO  load.
+2023-12-02 00:27:01,819 INFO 用户提问：{'method': 'chat', 'model': 'gpt-3.5-turbo', 'question': '安装pgsql时：failed to load sql modules into the database cluster'}
+2023-12-02 00:27:03,521 INFO "failed to
+2023-12-02 00:27:03,837 INFO  load sql
+2023-12-02 00:27:04,148 INFO  modules into
+2023-12-02 00:27:04,459 INFO  the database cluster
+2023-12-02 00:27:04,772 INFO "是安装pgSQL
+2023-12-02 00:27:05,084 INFO 时遇到的错误消息
+2023-12-02 00:27:05,392 INFO ，可能是由于
+2023-12-02 00:27:05,689 INFO 以下原因之一
+2023-12-02 00:27:05,996 INFO ：
+
+1. 权
+2023-12-02 00:27:06,312 INFO 限问题：可能是
+2023-12-02 00:27:06,622 INFO 由于当前用户没有
+2023-12-02 00:27:06,935 INFO 足够的权限来
+2023-12-02 00:27:07,245 INFO 将SQL模块
+2023-12-02 00:27:07,558 INFO 加载到数据库集
+2023-12-02 00:27:07,866 INFO 群中。确保使用
+2023-12-02 00:27:08,182 INFO 超级用户或具
+2023-12-02 00:27:08,493 INFO 有足够权限的
+2023-12-02 00:27:08,808 INFO 用户来执行安
+2023-12-02 00:27:09,116 INFO 装。
+
+2.
+2023-12-02 00:27:09,430 INFO  缺少依赖项
+2023-12-02 00:27:09,742 INFO ：可能缺少pg
+2023-12-02 00:27:10,048 INFO SQL依赖项
+2023-12-02 00:27:10,360 INFO ，导致无法加载
+2023-12-02 00:27:10,671 INFO SQL模块。
+2023-12-02 00:27:10,982 INFO 在安装pgSQL
+2023-12-02 00:27:11,295 INFO 之前，请确保
+2023-12-02 00:27:11,605 INFO 已安装了所有必
+2023-12-02 00:27:11,916 INFO 需的依赖项。
+
+
+2023-12-02 00:27:12,227 INFO 3. 损坏的
+2023-12-02 00:27:12,538 INFO 安装源：安装
+2023-12-02 00:27:12,848 INFO 包或源可能已
+2023-12-02 00:27:13,161 INFO 损坏，导致在
+2023-12-02 00:27:13,470 INFO 加载SQL模
+2023-12-02 00:27:13,782 INFO 块时出现错误。
+2023-12-02 00:27:14,093 INFO 尝试重新下载或
+2023-12-02 00:27:14,405 INFO 从可靠的来源获取
+2023-12-02 00:27:14,714 INFO 安装包。
+
+4
+2023-12-02 00:27:15,021 INFO . 数据库集
+2023-12-02 00:27:15,339 INFO 群问题：可能是
+2023-12-02 00:27:15,652 INFO 由于现有数据库集
+2023-12-02 00:27:15,960 INFO 群的某些问题导
+2023-12-02 00:27:16,272 INFO 致无法加载SQL
+2023-12-02 00:27:16,584 INFO 模块。尝试重新
+2023-12-02 00:27:16,893 INFO 创建数据库集
+2023-12-02 00:27:17,201 INFO 群并重新安装
+2023-12-02 00:27:17,514 INFO pgSQL。
+
+
+2023-12-02 00:27:17,828 INFO 解决此问题的
+2023-12-02 00:27:18,140 INFO 一些步骤包括
+2023-12-02 00:27:18,458 INFO ：
+
+- 确保
+2023-12-02 00:27:18,772 INFO 使用具有适当
+2023-12-02 00:27:19,082 INFO 权限的用户来
+2023-12-02 00:27:19,392 INFO 执行安装过程
+2023-12-02 00:27:19,702 INFO 。
+- 确保
+2023-12-02 00:27:20,009 INFO 已安装所有必
+2023-12-02 00:27:20,321 INFO 需的依赖项。
+
+2023-12-02 00:27:20,629 INFO - 重新下载或
+2023-12-02 00:27:20,940 INFO 从可信的来源获取
+2023-12-02 00:27:21,254 INFO 安装包。
+-
+2023-12-02 00:27:21,562 INFO  尝试重新创建
+2023-12-02 00:27:21,876 INFO 数据库集群并
+2023-12-02 00:27:22,184 INFO 重新安装pgSQL
+2023-12-02 00:27:22,498 INFO 。
+
+如果问题
+2023-12-02 00:27:22,808 INFO 仍然存在，请查
+2023-12-02 00:27:23,120 INFO 看安装日志或
+2023-12-02 00:27:23,429 INFO 错误消息的详
+2023-12-02 00:27:23,742 INFO 细信息，以获取
+2023-12-02 00:27:24,058 INFO 更多关于错误原
+2023-12-02 00:27:24,368 INFO 因的线索，并根
+2023-12-02 00:27:24,677 INFO 据情况采取相
+2023-12-02 00:27:24,990 INFO 应的解决方案
+2023-12-02 00:37:14,559 INFO connection closed
+2023-12-02 09:33:36,423 INFO websocket服务启动成功
+2023-12-02 09:33:36,547 INFO server listening on 0.0.0.0:8090
+2023-12-02 09:35:38,461 INFO connection open
+2023-12-02 09:35:54,361 INFO 用户提问：{'method': 'chat', 'model': 'gpt-3.5-turbo', 'question': '写一篇短文来赞美早晨'}
+2023-12-02 09:35:55,871 INFO 早晨是一天中
+2023-12-02 09:35:56,174 INFO 最美好的时光
+2023-12-02 09:35:56,484 INFO ，它给人们带
+2023-12-02 09:35:56,794 INFO 来希望和能量
+2023-12-02 09:35:57,106 INFO 。当第一缕阳
+2023-12-02 09:35:57,417 INFO 光洒在大地上
+2023-12-02 09:35:57,727 INFO 时，一切都焕
+2023-12-02 09:35:58,040 INFO 然一新。早晨
+2023-12-02 09:35:58,351 INFO 是大自然醒来
+2023-12-02 09:35:58,661 INFO 的时刻，花朵
+2023-12-02 09:35:58,974 INFO 绽放，鸟儿歌
+2023-12-02 09:35:59,283 INFO 唱，一切都在
+2023-12-02 09:35:59,595 INFO 昭示新的开始。
+
+
+2023-12-02 09:35:59,907 INFO 早晨带给我们一
+2023-12-02 09:36:00,217 INFO 份宁静与平和
+2023-12-02 09:36:00,528 INFO 。在这个时候
+2023-12-02 09:36:00,836 INFO ，城市还没有被
+2023-12-02 09:36:01,145 INFO 车辆和人们的
+2023-12-02 09:36:01,453 INFO 喧嚣所填满，
+2023-12-02 09:36:01,765 INFO 大街小巷还是
+2023-12-02 09:36:02,077 INFO 清静的。这是
+2023-12-02 09:36:02,386 INFO 一个属于自己
+2023-12-02 09:36:02,699 INFO 的独处时刻，
+2023-12-02 09:36:03,007 INFO 我们可以静下
+2023-12-02 09:36:03,320 INFO 心来思考，或
+2023-12-02 09:36:03,629 INFO 是追忆昨天的
+2023-12-02 09:36:03,940 INFO 欢声笑语，或
+2023-12-02 09:36:04,254 INFO 是展望今天的
+2023-12-02 09:36:04,563 INFO 美好。
+
+早
+2023-12-02 09:36:04,873 INFO 晨也是身心健
+2023-12-02 09:36:05,184 INFO 康的源泉。充
+2023-12-02 09:36:05,495 INFO 足的睡眠后，
+2023-12-02 09:36:05,809 INFO 早晨的第一杯
+2023-12-02 09:36:06,116 INFO 水能够清洁体
+2023-12-02 09:36:06,426 INFO 内的毒素，为
+2023-12-02 09:36:06,736 INFO 新的一天注入
+2023-12-02 09:36:07,046 INFO 活力。此外，
+2023-12-02 09:36:07,360 INFO 早晨的早餐是
+2023-12-02 09:36:07,670 INFO 一天中最重要
+2023-12-02 09:36:07,981 INFO 的一餐，它为
+2023-12-02 09:36:08,291 INFO 我们提供了身
+2023-12-02 09:36:08,602 INFO 体所需的营养
+2023-12-02 09:36:08,910 INFO 和能量。一顿
+2023-12-02 09:36:09,220 INFO 丰盛的早餐不
+2023-12-02 09:36:09,529 INFO 仅能使我们精
+2023-12-02 09:36:09,845 INFO 神焕发，还能
+2023-12-02 09:36:10,153 INFO 保持健康的体
+2023-12-02 09:36:10,464 INFO 态。
+
+早晨
+2023-12-02 09:36:10,774 INFO 给人们带来希
+2023-12-02 09:36:11,087 INFO 望和勇气。当
+2023-12-02 09:36:11,398 INFO 我们看到太阳
+2023-12-02 09:36:11,712 INFO 在天空中慢慢
+2023-12-02 09:36:12,022 INFO 升起，万物都
+2023-12-02 09:36:12,333 INFO 被温暖的阳光
+2023-12-02 09:36:12,646 INFO 所包围，我们感
+2023-12-02 09:36:12,959 INFO 受到了无限的
+2023-12-02 09:36:13,267 INFO 可能性。早晨
+2023-12-02 09:36:13,580 INFO 是新的一天的
+2023-12-02 09:36:13,890 INFO 开始，它给予
+2023-12-02 09:36:14,185 INFO 我们重新开始的
+2023-12-02 09:36:14,498 INFO 勇气，让我们摒
+2023-12-02 09:36:14,809 INFO 弃过去的烦恼
+2023-12-02 09:36:15,119 INFO 和困扰，迎接
+2023-12-02 09:36:15,430 INFO 新的挑战和机
+2023-12-02 09:36:15,743 INFO 遇。
+
+早晨
+2023-12-02 09:36:16,050 INFO 是一个与家人
+2023-12-02 09:36:16,364 INFO 共享快乐的时
+2023-12-02 09:36:16,672 INFO 光。在这个时
+2023-12-02 09:36:16,984 INFO 候，家人团聚
+2023-12-02 09:36:17,293 INFO 在一起，共进
+2023-12-02 09:36:17,605 INFO 早餐，分享彼
+2023-12-02 09:36:17,914 INFO 此的喜怒哀乐
+2023-12-02 09:36:18,233 INFO 。这是一个温
+2023-12-02 09:36:18,558 INFO 馨的时刻，我们
+2023-12-02 09:36:18,867 INFO 能够感受到家
+2023-12-02 09:36:19,180 INFO 庭的和谐与幸
+2023-12-02 09:36:19,491 INFO 福。
+
+总之
+2023-12-02 09:36:19,807 INFO ，早晨是一个充
+2023-12-02 09:36:20,116 INFO 满希望和美好
+2023-12-02 09:36:20,429 INFO 的时刻。它给
+2023-12-02 09:36:20,739 INFO 予我们活力和
+2023-12-02 09:36:21,050 INFO 动力，让我们以
+2023-12-02 09:36:21,361 INFO 积极的心态面
+2023-12-02 09:36:21,672 INFO 对新的一天。
+2023-12-02 09:36:21,985 INFO 让我们珍惜每
+2023-12-02 09:36:22,295 INFO 一个早晨，享
+2023-12-02 09:36:22,606 INFO 受其中带来的
+2023-12-02 09:36:22,917 INFO 快乐和幸福。
+2023-12-02 09:54:17,245 INFO 用户提问：{'method': 'chat', 'model': 'gpt-3.5-turbo', 'question': 'stack builder'}
+2023-12-02 09:54:18,469 INFO A stack builder
+2023-12-02 09:54:18,778 INFO  is a software
+2023-12-02 09:54:19,089 INFO  tool or
+2023-12-02 09:54:19,398 INFO  algorithm that
+2023-12-02 09:54:19,708 INFO  helps to
+2023-12-02 09:54:20,020 INFO  optimize the
+2023-12-02 09:54:20,327 INFO  construction of
+2023-12-02 09:54:20,638 INFO  a stack or
+2023-12-02 09:54:20,948 INFO  pile of
+2023-12-02 09:54:21,259 INFO  items.
+2023-12-02 09:54:21,571 INFO  This can
+2023-12-02 09:54:21,878 INFO  be useful in
+2023-12-02 09:54:22,189 INFO  various industries
+2023-12-02 09:54:22,500 INFO , such as
+2023-12-02 09:54:22,812 INFO  logistics and
+2023-12-02 09:54:23,122 INFO  manufacturing,
+2023-12-02 09:54:23,429 INFO  where efficiently
+2023-12-02 09:54:23,735 INFO  stacking items
+2023-12-02 09:54:24,047 INFO  can lead to
+2023-12-02 09:54:24,358 INFO  cost savings
+2023-12-02 09:54:24,671 INFO  and improved space
+2023-12-02 09:54:24,978 INFO  utilization.
+
+
+2023-12-02 09:54:25,290 INFO A stack builder
+2023-12-02 09:54:25,598 INFO  takes into
+2023-12-02 09:54:25,908 INFO  consideration various
+2023-12-02 09:54:26,220 INFO  factors,
+2023-12-02 09:54:26,531 INFO  such as
+2023-12-02 09:54:26,842 INFO  the dimensions and
+2023-12-02 09:54:27,134 INFO  weights of
+2023-12-02 09:54:27,446 INFO  the items,
+2023-12-02 09:54:27,758 INFO  stacking rules
+2023-12-02 09:54:28,071 INFO  and restrictions,
+2023-12-02 09:54:28,378 INFO  and any specific
+2023-12-02 09:54:28,691 INFO  requirements or
+2023-12-02 09:54:28,998 INFO  constraints.
+2023-12-02 09:54:29,311 INFO  It then generates
+2023-12-02 09:54:29,621 INFO  an optimized stacking
+2023-12-02 09:54:29,930 INFO  plan or
+2023-12-02 09:54:30,241 INFO  arrangement that
+2023-12-02 09:54:30,552 INFO  minimizes
+2023-12-02 09:54:30,862 INFO  wasted space
+2023-12-02 09:54:31,172 INFO , maximizes
+2023-12-02 09:54:31,482 INFO  stability and
+2023-12-02 09:54:31,792 INFO  safety,
+2023-12-02 09:54:32,102 INFO  and meets the
+2023-12-02 09:54:32,410 INFO  specified criteria
+2023-12-02 09:54:32,721 INFO .
+
+Some stack
+2023-12-02 09:54:33,032 INFO  builder algorithms
+2023-12-02 09:54:33,345 INFO  may use mathematical
+2023-12-02 09:54:33,654 INFO  optimization techniques
+2023-12-02 09:54:33,968 INFO , such as
+2023-12-02 09:54:34,280 INFO  linear programming
+2023-12-02 09:54:34,591 INFO  or heur
+2023-12-02 09:54:34,902 INFO istics,
+2023-12-02 09:54:35,212 INFO  to find the
+2023-12-02 09:54:35,521 INFO  optimal solution
+2023-12-02 09:54:35,828 INFO . They can
+2023-12-02 09:54:36,138 INFO  also incorporate
+2023-12-02 09:54:36,449 INFO  advanced features
+2023-12-02 09:54:36,759 INFO  like dynamic
+2023-12-02 09:54:37,074 INFO  stacking,
+2023-12-02 09:54:37,382 INFO  where items
+2023-12-02 09:54:37,693 INFO  are stacked or
+2023-12-02 09:54:38,004 INFO  removed in
+2023-12-02 09:54:38,314 INFO  real-time
+2023-12-02 09:54:38,624 INFO  based on
+2023-12-02 09:54:38,932 INFO  changing conditions
+2023-12-02 09:54:39,245 INFO  or requirements.
+
+
+2023-12-02 09:54:39,555 INFO Overall,
+2023-12-02 09:54:39,869 INFO  a stack builder
+2023-12-02 09:54:40,178 INFO  helps to
+2023-12-02 09:54:40,490 INFO  streamline and
+2023-12-02 09:54:40,798 INFO  automate the
+2023-12-02 09:54:41,107 INFO  process of
+2023-12-02 09:54:41,417 INFO  creating efficient
+2023-12-02 09:54:41,729 INFO  stacks of
+2023-12-02 09:54:42,041 INFO  items,
+2023-12-02 09:54:42,353 INFO  saving time
+2023-12-02 09:54:42,665 INFO  and resources while
+2023-12-02 09:54:42,974 INFO  improving operational
+2023-12-02 09:54:43,290 INFO  efficiency.
+2023-12-02 10:00:43,543 INFO 用户提问：{'method': 'chat', 'model': 'gpt-3.5-turbo', 'question': 'win10怎么打开防火墙'}
+2023-12-02 10:00:44,945 INFO 在Windows 
+2023-12-02 10:00:45,255 INFO 10中，打开
+2023-12-02 10:00:45,566 INFO 防火墙的方法如
+2023-12-02 10:00:45,875 INFO 下：
+
+1.
+2023-12-02 10:00:46,184 INFO  使用快捷键
+2023-12-02 10:00:46,496 INFO  Win + X
+2023-12-02 10:00:46,808 INFO  打开快捷菜
+2023-12-02 10:00:47,123 INFO 单，然后选择“
+2023-12-02 10:00:47,429 INFO 控制面板”。
+
+2
+2023-12-02 10:00:47,739 INFO . 在控制面
+2023-12-02 10:00:48,050 INFO 板中，选择“
+2023-12-02 10:00:48,362 INFO 系统和安全”。
+
+
+2023-12-02 10:00:48,673 INFO 3. 在“系统
+2023-12-02 10:00:48,984 INFO 和安全”页面中
+2023-12-02 10:00:49,295 INFO ，选择“Windows Defender
+2023-12-02 10:00:49,606 INFO  防火墙”。
+
+4
+2023-12-02 10:00:49,915 INFO . 在Windows Defender
+2023-12-02 10:00:50,225 INFO  防火墙页面，
+2023-12-02 10:00:50,532 INFO 可以看到防火
+2023-12-02 10:00:50,842 INFO 墙的状态和设置
+2023-12-02 10:00:51,153 INFO 选项。点击左
+2023-12-02 10:00:51,465 INFO 侧的“启用或
+2023-12-02 10:00:51,772 INFO 关闭Windows Defender
+2023-12-02 10:00:52,086 INFO  防火墙”。
+
+5
+2023-12-02 10:00:52,394 INFO . 在防火墙
+2023-12-02 10:00:52,706 INFO 设置页面，可以
+2023-12-02 10:00:53,017 INFO 选择打开或关闭
+2023-12-02 10:00:53,328 INFO 防火墙。选择“
+2023-12-02 10:00:53,640 INFO 打开（推荐）
+2023-12-02 10:00:53,949 INFO ”即可打开防
+2023-12-02 10:00:54,262 INFO 火墙。
+
+6
+2023-12-02 10:00:54,571 INFO . 点击“确定
+2023-12-02 10:00:54,878 INFO ”保存设置。
+
+
+2023-12-02 10:00:55,190 INFO 现在，Windows 
+2023-12-02 10:00:55,499 INFO 10的防火墙
+2023-12-02 10:00:55,810 INFO 应该已经打开
+2023-12-02 10:00:56,122 INFO 了。请注意，
+2023-12-02 10:00:56,432 INFO 如果你的计算
+2023-12-02 10:00:56,743 INFO 机已经安装了
+2023-12-02 10:00:57,055 INFO 其他防火墙软
+2023-12-02 10:00:57,365 INFO 件，可能需要在
+2023-12-02 10:00:57,674 INFO 该软件中打开
+2023-12-02 10:00:57,985 INFO 防火墙，而不
+2023-12-02 10:00:58,295 INFO 是使用Windows Defender
+2023-12-02 10:07:44,206 INFO 用户提问：{'method': 'chat', 'model': 'gpt-3.5-turbo', 'question': '连不上本地的pgsql，怎么关闭防火墙？'}
+2023-12-02 10:07:45,744 INFO 在关闭防火墙
+2023-12-02 10:07:46,061 INFO 之前，请确保
+2023-12-02 10:07:46,376 INFO 您具备管理员权限
+2023-12-02 10:07:46,683 INFO 。
+
+在 Windows 上
+2023-12-02 10:07:46,993 INFO 关闭防火墙：
+
+2023-12-02 10:07:47,301 INFO 1. 打开控
+2023-12-02 10:07:47,615 INFO 制面板。
+2
+2023-12-02 10:07:47,926 INFO . 选择 "系统
+2023-12-02 10:07:48,234 INFO 和安全"。
+3
+2023-12-02 10:07:48,546 INFO . 点击 "Windows
+2023-12-02 10:07:48,837 INFO  Defender 防
+2023-12-02 10:07:49,147 INFO 火墙"。
+4
+2023-12-02 10:07:49,456 INFO . 在左侧面
+2023-12-02 10:07:49,767 INFO 板中，选择 "
+2023-12-02 10:07:50,077 INFO 打开或关闭 Windows
+2023-12-02 10:07:50,386 INFO  Defender 防
+2023-12-02 10:07:50,701 INFO 火墙"。
+5
+2023-12-02 10:07:51,008 INFO . 在 "专
+2023-12-02 10:07:51,316 INFO 用网络" 和 "
+2023-12-02 10:07:51,629 INFO 公共网络" 下
+2023-12-02 10:07:51,941 INFO 勾选 "关闭防
+2023-12-02 10:07:52,249 INFO 火墙"。
+6
+2023-12-02 10:07:52,560 INFO . 点击 "确定
+2023-12-02 10:07:52,868 INFO "。
+
+在 macOS
+2023-12-02 10:07:53,179 INFO  上关闭防火
+2023-12-02 10:07:53,491 INFO 墙：
+1. 点
+2023-12-02 10:07:53,800 INFO 击苹果菜单，并
+2023-12-02 10:07:54,112 INFO 选择 "系统偏
+2023-12-02 10:07:54,426 INFO 好设置"。
+2
+2023-12-02 10:07:54,741 INFO . 点击 "安
+2023-12-02 10:07:55,048 INFO 全性与隐私"
+2023-12-02 10:07:55,358 INFO 。
+3. 切换
+2023-12-02 10:07:55,668 INFO 到 "防火墙
+2023-12-02 10:07:55,979 INFO " 标签页。
+
+2023-12-02 10:07:56,289 INFO 4. 点击 "
+2023-12-02 10:07:56,598 INFO 解锁"，输入管理员
+2023-12-02 10:07:56,908 INFO 密码。
+5.
+2023-12-02 10:07:57,225 INFO  点击右下角
+2023-12-02 10:07:57,539 INFO 的 "停止防
+2023-12-02 10:07:57,847 INFO 火墙"。
+
+在
+2023-12-02 10:07:58,159 INFO  Ubuntu 上
+2023-12-02 10:07:58,470 INFO 关闭防火墙（
+2023-12-02 10:07:58,775 INFO 默认使用的是
+2023-12-02 10:07:59,089 INFO  UFW）：
+
+2023-12-02 10:07:59,401 INFO 1. 打开终
+2023-12-02 10:07:59,712 INFO 端。
+2. 输入
+2023-12-02 10:08:00,024 INFO 命令 `sudo u
+2023-12-02 10:08:00,334 INFO fw disable`
+2023-12-02 10:08:00,648 INFO 。
+3. 输入管理员
+2023-12-02 10:08:00,959 INFO 密码并按下 Enter
+2023-12-02 10:08:01,271 INFO  键。
+
+在
+2023-12-02 10:08:01,581 INFO  CentOS 上
+2023-12-02 10:08:01,895 INFO 关闭防火墙（
+2023-12-02 10:08:02,201 INFO 默认使用的是
+2023-12-02 10:08:02,514 INFO  firewal
+2023-12-02 10:08:02,829 INFO ld）：
+1
+2023-12-02 10:08:03,142 INFO . 打开终端
+2023-12-02 10:08:03,447 INFO 。
+2. 输入命
+2023-12-02 10:08:03,758 INFO 令 `sudo systemctl
+2023-12-02 10:08:04,065 INFO  stop fire
+2023-12-02 10:08:04,377 INFO walld`
+2023-12-02 10:08:04,692 INFO 。
+3. 输入管理员
+2023-12-02 10:08:04,998 INFO 密码并按下 Enter
+2023-12-02 10:08:05,309 INFO  键。
+
+请
+2023-12-02 10:08:05,618 INFO 注意，关闭防
+2023-12-02 10:08:05,929 INFO 火墙可能会使
+2023-12-02 10:08:06,243 INFO 您的计算机存在
+2023-12-02 10:08:06,550 INFO 安全风险。在
+2023-12-02 10:08:06,861 INFO 调试和测试过
+2023-12-02 10:08:07,170 INFO 程中关闭防火
+2023-12-02 10:08:07,484 INFO 墙通常是可以接
+2023-12-02 10:08:07,793 INFO 受的，但在生
+2023-12-02 10:08:08,104 INFO 产环境中，建
+2023-12-02 10:08:08,414 INFO 议仅允许所需
+2023-12-02 10:08:08,724 INFO 的网络流量通过
+2023-12-02 10:18:36,331 INFO 用户提问：{'method': 'chat', 'model': 'gpt-3.5-turbo', 'question': '怎么重启postgresql'}
+2023-12-02 10:18:37,938 INFO 要重启 PostgreSQL 数据
+2023-12-02 10:18:38,254 INFO 库，可以按照
+2023-12-02 10:18:38,565 INFO 以下步骤进行操作
+2023-12-02 10:18:38,872 INFO ：
+
+1. 打
+2023-12-02 10:18:39,182 INFO 开命令行终端
+2023-12-02 10:18:39,491 INFO 或控制台窗口
+2023-12-02 10:18:39,804 INFO 。
+
+2. 使用
+2023-12-02 10:18:40,113 INFO 管理员权限登录
+2023-12-02 10:18:40,424 INFO 到 PostgreSQL 数据
+2023-12-02 10:18:40,733 INFO 库服务器。
+
+3
+2023-12-02 10:18:41,040 INFO . 使用以下命
+2023-12-02 10:18:41,351 INFO 令重启 PostgreSQL 
+2023-12-02 10:18:41,661 INFO 服务：
+   -
+2023-12-02 10:18:41,972 INFO  对于 Linux 系
+2023-12-02 10:18:42,284 INFO 统：`sudo service
+2023-12-02 10:18:42,592 INFO  postgresql
+2023-12-02 10:18:42,904 INFO  restart`
+
+2023-12-02 10:18:43,216 INFO    - 对于
+2023-12-02 10:18:43,522 INFO  Windows 系
+2023-12-02 10:18:43,833 INFO 统：`net stop
+2023-12-02 10:18:44,142 INFO  postgresql
+2023-12-02 10:18:44,454 INFO `停止服务，
+2023-12-02 10:18:44,768 INFO 然后`net start
+2023-12-02 10:18:45,078 INFO  postgresql
+2023-12-02 10:18:45,389 INFO `启动服务。
+
+
+2023-12-02 10:18:45,697 INFO 4. 确认 PostgreSQL
+2023-12-02 10:18:46,005 INFO  服务已经成功
+2023-12-02 10:18:46,316 INFO 重启。
+
+请
+2023-12-02 10:18:46,623 INFO 注意，这只是
+2023-12-02 10:18:46,935 INFO 一种重启 PostgreSQL 的
+2023-12-02 10:18:47,248 INFO 方法，具体操作
+2023-12-02 10:18:47,559 INFO 可能因操作系统
+2023-12-02 10:18:47,870 INFO 和 PostgreSQL 版
+2023-12-02 10:18:48,181 INFO 本而有所不同
+2023-12-02 10:18:48,494 INFO 。在执行任何
+2023-12-02 10:18:48,801 INFO 重启操作之前
+2023-12-02 10:18:49,112 INFO ，请确保对数据库
+2023-12-02 10:18:49,420 INFO 进行了适当的
+2023-12-02 10:18:49,731 INFO 备份，以避免
+2023-12-02 10:25:07,510 INFO 用户提问：{'method': 'chat', 'model': 'gpt-3.5-turbo', 'question': 'pg_ctl.exe register -N "postgresql" -D "E:/Program Files/PostgreSQL/9.0/data"报错了pg_ctl: 无法打开服务管理器'}
+2023-12-02 10:25:08,920 INFO 这个错误可能是
+2023-12-02 10:25:09,236 INFO 由于以下原因
+2023-12-02 10:25:09,546 INFO 导致的：
+
+1
+2023-12-02 10:25:09,857 INFO . 您没有以
+2023-12-02 10:25:10,169 INFO 管理员身份运
+2023-12-02 10:25:10,480 INFO 行命令提示符
+2023-12-02 10:25:10,792 INFO 。请确保以管理员
+2023-12-02 10:25:11,103 INFO 身份运行命令
+2023-12-02 10:25:11,411 INFO 提示符来执行此
+2023-12-02 10:25:11,721 INFO 命令。
+
+2
+2023-12-02 10:25:12,032 INFO . PostgreSQL 
+2023-12-02 10:25:12,340 INFO 9.0安装目
+2023-12-02 10:25:12,652 INFO 录中的pg_ctl
+2023-12-02 10:25:12,961 INFO .exe文件不存在
+2023-12-02 10:25:13,272 INFO 。请确保您已
+2023-12-02 10:25:13,585 INFO 正确安装了Post
+2023-12-02 10:25:13,894 INFO greSQL 
+2023-12-02 10:25:14,205 INFO 9.0并指定
+2023-12-02 10:25:14,517 INFO 正确的安装路径
+2023-12-02 10:25:14,828 INFO 。
+
+3. 您
+2023-12-02 10:25:15,138 INFO 的系统中可能没有
+2023-12-02 10:25:15,448 INFO 安装或配置正确
+2023-12-02 10:25:15,756 INFO 的服务管理器
+2023-12-02 10:25:16,064 INFO 。请确保您的
+2023-12-02 10:25:16,374 INFO 操作系统中已
+2023-12-02 10:25:16,684 INFO 安装并配置了
+2023-12-02 10:25:16,997 INFO 服务管理器，
+2023-12-02 10:25:17,310 INFO 例如Windows中
+2023-12-02 10:25:17,620 INFO 的服务控制管理
+2023-12-02 10:25:17,930 INFO 器（SCM）
+2023-12-02 10:25:18,243 INFO 。
+
+4. 您
+2023-12-02 10:25:18,555 INFO 设置的服务名称
+2023-12-02 10:25:18,864 INFO （"postgresql"
+2023-12-02 10:25:19,174 INFO ）可能已被其他
+2023-12-02 10:25:19,488 INFO 服务使用。请
+2023-12-02 10:25:19,787 INFO 尝试使用一个不
+2023-12-02 10:25:20,095 INFO 重复的服务名称
+2023-12-02 10:25:20,407 INFO 。
+
+您可以尝
+2023-12-02 10:25:20,717 INFO 试按照以下步
+2023-12-02 10:25:21,029 INFO 骤来解决这个
+2023-12-02 10:25:21,340 INFO 问题：
+
+1
+2023-12-02 10:25:21,652 INFO . 以管理员身
+2023-12-02 10:25:21,963 INFO 份运行命令提示
+2023-12-02 10:25:22,276 INFO 符。在开始菜
+2023-12-02 10:25:22,588 INFO 单中找到“命
+2023-12-02 10:25:22,896 INFO 令提示符”，点击
+2023-12-02 10:25:23,206 INFO 右键并选择“
+2023-12-02 10:25:23,518 INFO 以管理员身份
+2023-12-02 10:25:23,830 INFO 运行”。
+
+2
+2023-12-02 10:25:24,141 INFO . 确保您的
+2023-12-02 10:25:24,450 INFO PostgreSQL 
+2023-12-02 10:25:24,761 INFO 9.0安装目
+2023-12-02 10:25:25,074 INFO 录中存在pg_ctl
+2023-12-02 10:25:25,384 INFO .exe文件。
+2023-12-02 10:25:25,696 INFO 如果不存在，请
+2023-12-02 10:25:26,009 INFO 重新安装PostgreSQL
+2023-12-02 10:25:26,323 INFO  9.0并确
+2023-12-02 10:25:26,631 INFO 保选择正确的
+2023-12-02 10:25:26,942 INFO 安装路径。
+
+3
+2023-12-02 10:25:27,253 INFO . 确保您的
+2023-12-02 10:25:27,567 INFO 操作系统中已
+2023-12-02 10:25:27,876 INFO 安装并正确配置
+2023-12-02 10:25:28,187 INFO 了服务管理器
+2023-12-02 10:25:28,478 INFO 。对于Windows操作
+2023-12-02 10:25:28,793 INFO 系统，确保已
+2023-12-02 10:25:29,098 INFO 安装和配置了
+2023-12-02 10:25:29,411 INFO 服务控制管理器
+2023-12-02 10:25:29,725 INFO （SCM）。您
+2023-12-02 10:25:30,034 INFO 可以在Windows服务
+2023-12-02 10:25:30,346 INFO 中查找“PostgreSQL
+2023-12-02 10:25:30,656 INFO ”服务并确认其
+2023-12-02 10:25:30,970 INFO 状态。
+
+4
+2023-12-02 10:25:31,284 INFO . 如果以上步
+2023-12-02 10:25:31,595 INFO 骤都没有解决
+2023-12-02 10:25:31,905 INFO 问题，尝试使用
+2023-12-02 10:25:32,214 INFO 不同的服务名称
+2023-12-02 10:25:32,525 INFO 来注册。例如，
+2023-12-02 10:25:32,834 INFO 尝试使用“postgresql
+2023-12-02 10:25:33,145 INFO 9”或其他不
+2023-12-02 10:25:33,454 INFO 重复的名称。
+
+
+2023-12-02 10:25:33,765 INFO 如果以上步骤
+2023-12-02 10:25:34,078 INFO 仍未解决问题，请
+2023-12-02 10:25:34,386 INFO 提供更多详细
+2023-12-02 10:25:34,695 INFO 的错误信息和
+2023-12-02 10:25:35,008 INFO 您的操作系统版本
+2023-12-02 10:25:35,321 INFO ，以便更好地
+2023-12-02 10:25:35,631 INFO 帮助您解决问题
+2023-12-02 10:26:47,593 INFO connection closed
+2023-12-02 11:17:44,970 INFO websocket服务启动成功
+2023-12-02 11:17:45,160 INFO server listening on 0.0.0.0:8090
+2023-12-02 11:19:37,593 INFO connection open
+2023-12-02 11:20:02,468 INFO 用户提问：{'method': 'chat', 'model': 'gpt-4', 'question': 'python orm怎么用？请给出详细的代码实例'}
+2023-12-02 11:20:03,952 INFO Python ORM
+2023-12-02 11:20:04,914 INFO  (Object Rel
+2023-12-02 11:20:05,217 INFO ational Mapping
+2023-12-02 11:20:05,533 INFO ) 主要是通过
+2023-12-02 11:20:05,844 INFO 将类和数据库表
+2023-12-02 11:20:06,154 INFO 进行一一对应
+2023-12-02 11:20:06,467 INFO 来实现数据库操作
+2023-12-02 11:20:06,784 INFO 的封装。最常
+2023-12-02 11:20:07,097 INFO 用的Python ORM
+2023-12-02 11:20:07,410 INFO 框枎就是SQLAlchemy
+2023-12-02 11:20:07,721 INFO 以及Django ORM
+2023-12-02 11:20:08,036 INFO 。
+
+以下是
+2023-12-02 11:20:08,351 INFO 一些基本的用
+2023-12-02 11:20:08,667 INFO 法：
+
+首先
+2023-12-02 11:20:08,980 INFO ，如果你正在使用
+2023-12-02 11:20:09,296 INFO SQLAlchemy，
+2023-12-02 11:20:09,611 INFO 首先要确保你
+2023-12-02 11:20:09,921 INFO 已经正确安装
+2023-12-02 11:20:10,236 INFO 了它。可以通过
+2023-12-02 11:20:10,545 INFO 以下命令进行安
+2023-12-02 11:20:10,858 INFO 装：
+```bash
+2023-12-02 11:20:11,171 INFO 
+pip install sqlalchemy
+2023-12-02 11:20:11,484 INFO 
+```
+
+下
+2023-12-02 11:20:11,796 INFO 面是SQLAlchemy
+2023-12-02 11:20:12,112 INFO 的基本使用：
+
+
+2023-12-02 11:20:12,426 INFO 1. 定义Model
+2023-12-02 11:20:12,742 INFO 
+```python
+
+2023-12-02 11:20:13,056 INFO from sqlalchemy import
+2023-12-02 11:20:13,369 INFO  Column,
+2023-12-02 11:20:13,680 INFO  String,
+2023-12-02 11:20:13,993 INFO  create_engine
+2023-12-02 11:20:14,308 INFO 
+from sqlalchemy
+2023-12-02 11:20:14,619 INFO .orm import session
+2023-12-02 11:20:14,932 INFO maker
+
+2023-12-02 11:20:15,245 INFO from sqlalchemy.ext
+2023-12-02 11:20:15,557 INFO .declarative
+2023-12-02 11:20:15,871 INFO  import declar
+2023-12-02 11:20:16,185 INFO ative_base
+2023-12-02 11:20:16,498 INFO 
+
+Base =
+2023-12-02 11:20:16,813 INFO  declarative
+2023-12-02 11:20:17,128 INFO _base()
+
+
+2023-12-02 11:20:17,440 INFO class User
+2023-12-02 11:20:17,754 INFO (Base):
+
+2023-12-02 11:20:18,068 INFO     __tablename
+2023-12-02 11:20:18,380 INFO __ = 'user
+2023-12-02 11:20:18,694 INFO '
+
+    id
+2023-12-02 11:20:19,008 INFO  = Column(String
+2023-12-02 11:20:19,323 INFO (20), primary
+2023-12-02 11:20:19,635 INFO _key=True)
+
+2023-12-02 11:20:19,945 INFO     name =
+2023-12-02 11:20:20,258 INFO  Column(String
+2023-12-02 11:20:20,572 INFO (20))
+``
+2023-12-02 11:20:20,886 INFO `
+
+2. 连
+2023-12-02 11:20:21,198 INFO 接数据库并进行
+2023-12-02 11:20:21,511 INFO CRUD操作
+
+2023-12-02 11:20:21,827 INFO ```python
+
+2023-12-02 11:20:22,141 INFO engine =
+2023-12-02 11:20:22,454 INFO  create_engine
+2023-12-02 11:20:22,766 INFO ('mysql+
+2023-12-02 11:20:23,082 INFO mysqlconnector
+2023-12-02 11:20:23,393 INFO ://user:
+2023-12-02 11:20:23,702 INFO password@
+2023-12-02 11:20:24,017 INFO localhost:
+2023-12-02 11:20:24,333 INFO 3306/test')
+
+2023-12-02 11:20:24,646 INFO DBSession =
+2023-12-02 11:20:24,959 INFO  sessionmaker
+2023-12-02 11:20:25,273 INFO (bind=
+2023-12-02 11:20:25,588 INFO engine)
+
+
+2023-12-02 11:20:25,903 INFO # 插入数据
+
+2023-12-02 11:20:26,220 INFO session =
+2023-12-02 11:20:26,534 INFO  DBSession()
+
+2023-12-02 11:20:26,847 INFO new_user =
+2023-12-02 11:20:27,161 INFO  User(id
+2023-12-02 11:20:27,476 INFO ='5', name
+2023-12-02 11:20:27,791 INFO ='Bob')
+
+2023-12-02 11:20:28,102 INFO session.add
+2023-12-02 11:20:28,416 INFO (new_user)
+
+2023-12-02 11:20:28,729 INFO session.commit
+2023-12-02 11:20:29,041 INFO ()
+session.close
+2023-12-02 11:20:29,352 INFO ()
+
+# 查询
+2023-12-02 11:20:29,668 INFO 数据
+session =
+2023-12-02 11:20:29,979 INFO  DBSession()
+
+2023-12-02 11:20:30,291 INFO user = session
+2023-12-02 11:20:30,608 INFO .query(User
+2023-12-02 11:20:30,921 INFO ).filter(User
+2023-12-02 11:20:31,233 INFO .id=='5
+2023-12-02 11:20:31,547 INFO ').one()
+
+2023-12-02 11:20:31,864 INFO print('
+2023-12-02 11:20:32,175 INFO name:', user
+2023-12-02 11:20:32,489 INFO .name)
+
+2023-12-02 11:20:32,802 INFO session.close
+2023-12-02 11:20:33,114 INFO ()
+```
+
+
+2023-12-02 11:20:33,428 INFO 同时，Django ORM
+2023-12-02 11:20:33,743 INFO 也是非常常用
+2023-12-02 11:20:34,057 INFO ，下面是它的
+2023-12-02 11:20:34,370 INFO 基本使用：
+
+1
+2023-12-02 11:20:34,684 INFO . 在你的D
+2023-12-02 11:20:34,998 INFO jango App
+2023-12-02 11:20:35,311 INFO 下的models.py
+2023-12-02 11:20:35,629 INFO 文件中定义Model
+2023-12-02 11:20:35,939 INFO ，例如:
+```
+2023-12-02 11:20:36,253 INFO python
+
+2023-12-02 11:20:36,568 INFO from django.db
+2023-12-02 11:20:36,882 INFO  import models
+2023-12-02 11:20:37,195 INFO 
+
+class Blog
+2023-12-02 11:20:37,509 INFO (models.Model
+2023-12-02 11:20:37,823 INFO ):
+    name
+2023-12-02 11:20:38,136 INFO  = models.CharField
+2023-12-02 11:20:38,449 INFO (max_length=
+2023-12-02 11:20:38,765 INFO 100)
+   
+2023-12-02 11:20:39,078 INFO  tagline =
+2023-12-02 11:20:39,392 INFO  models.TextField
+2023-12-02 11:20:39,708 INFO ()
+
+    def
+2023-12-02 11:20:40,021 INFO  __str__(
+2023-12-02 11:20:40,334 INFO self): 
+2023-12-02 11:20:40,648 INFO  # __unicode
+2023-12-02 11:20:40,963 INFO __ for Python
+2023-12-02 11:20:41,275 INFO  2
+        return
+2023-12-02 11:20:41,587 INFO  self.name
+2023-12-02 11:20:41,902 INFO 
+```
+
+2
+2023-12-02 11:20:42,213 INFO . 然后你可以
+2023-12-02 11:20:42,526 INFO 在views.py
+2023-12-02 11:20:42,843 INFO 中这样使用：
+
+2023-12-02 11:20:43,155 INFO ```python
+
+2023-12-02 11:20:43,466 INFO from .models
+2023-12-02 11:20:43,781 INFO  import Blog
+2023-12-02 11:20:44,093 INFO 
+
+def get
+2023-12-02 11:20:44,406 INFO _blog(request
+2023-12-02 11:20:44,723 INFO ):
+    blog
+2023-12-02 11:20:45,034 INFO  = Blog.objects
+2023-12-02 11:20:45,351 INFO .get(name="
+2023-12-02 11:20:45,667 INFO My Blog")
+
+2023-12-02 11:20:45,977 INFO     return render
+2023-12-02 11:20:46,291 INFO (request,
+2023-12-02 11:20:46,607 INFO  'blog.html
+2023-12-02 11:20:46,920 INFO ', {'blog
+2023-12-02 11:20:47,231 INFO ': blog})
+
+2023-12-02 11:20:47,546 INFO ```
+
+以上
+2023-12-02 11:20:47,861 INFO 代码中，我们分
+2023-12-02 11:20:48,173 INFO 别从SQLAlchemy
+2023-12-02 11:20:48,490 INFO 和Django ORM
+2023-12-02 11:20:48,803 INFO 两个角度，通过
+2023-12-02 11:20:49,118 INFO 创建模型（对
+2023-12-02 11:20:49,433 INFO 应数据库中的
+2023-12-02 11:20:49,746 INFO 表），然后进行
+2023-12-02 11:20:50,064 INFO 数据库的CRUD
+2023-12-02 11:20:50,377 INFO 操作来说明了
+2023-12-02 11:20:50,692 INFO Python ORM
+2023-12-02 11:21:29,338 INFO 用户提问：{'method': 'chat', 'model': 'gpt-4', 'question': 'python 的Django ORM怎么使用pgsql？请给出详细的代码实例'}
+2023-12-02 11:21:31,116 INFO 首先，安装 `
+2023-12-02 11:21:31,429 INFO psycopg2
+2023-12-02 11:21:31,745 INFO `，它是 PostgreSQL 和
+2023-12-02 11:21:32,059 INFO  Python 
+2023-12-02 11:21:32,373 INFO 之间的适配器
+2023-12-02 11:21:33,429 INFO 。在项目的虚
+2023-12-02 11:21:34,182 INFO 拟环境中执行此
+2023-12-02 11:21:34,488 INFO 命令：
+```sh
+2023-12-02 11:21:34,803 INFO 
+pip install psycopg
+2023-12-02 11:21:35,117 INFO 2
+```
+如果
+2023-12-02 11:21:35,431 INFO 你在安装中遇
+2023-12-02 11:21:35,741 INFO 到问题，你可以
+2023-12-02 11:21:36,055 INFO 试试 `psycopg
+2023-12-02 11:21:36,365 INFO 2-binary`
+2023-12-02 11:21:36,678 INFO ，它是一个独
+2023-12-02 11:21:36,991 INFO 立的包，不需要
+2023-12-02 11:21:37,307 INFO 额外的依赖。
+
+2023-12-02 11:21:37,618 INFO ```sh
+
+2023-12-02 11:21:37,932 INFO pip install psycopg
+2023-12-02 11:21:38,247 INFO 2-binary
+
+2023-12-02 11:21:38,563 INFO ```
+
+然
+2023-12-02 11:21:38,878 INFO 后，修改你的
+2023-12-02 11:21:39,190 INFO  Django settings
+2023-12-02 11:21:39,507 INFO  文件（默认文件
+2023-12-02 11:21:39,821 INFO 名为 `settings.py
+2023-12-02 11:21:40,133 INFO `），设置 PostgreSQL
+2023-12-02 11:21:40,448 INFO  或 pgsql
+2023-12-02 11:21:40,762 INFO 数据库，设置信息
+2023-12-02 11:21:41,076 INFO 大概如下：
+```
+2023-12-02 11:21:41,388 INFO python
+
+2023-12-02 11:21:41,700 INFO DATABASES
+2023-12-02 11:21:42,012 INFO  = {
+   
+2023-12-02 11:21:42,324 INFO  'default':
+2023-12-02 11:21:42,634 INFO  {
+        '
+2023-12-02 11:21:42,946 INFO ENGINE':
+2023-12-02 11:21:43,258 INFO  'django.db
+2023-12-02 11:21:43,572 INFO .backends.post
+2023-12-02 11:21:43,884 INFO gresql',
+
+2023-12-02 11:21:44,197 INFO         '
+2023-12-02 11:21:44,511 INFO NAME': '
+2023-12-02 11:21:44,823 INFO mydatabase',
+
+2023-12-02 11:21:45,136 INFO         '
+2023-12-02 11:21:45,446 INFO USER': '
+2023-12-02 11:21:45,760 INFO mydatabaseuser
+2023-12-02 11:21:46,070 INFO ',
+        '
+2023-12-02 11:21:46,385 INFO PASSWORD':
+2023-12-02 11:21:46,699 INFO  'mypassword
+2023-12-02 11:21:47,013 INFO ',
+        '
+2023-12-02 11:21:47,327 INFO HOST': '
+2023-12-02 11:21:47,640 INFO localhost',
+
+2023-12-02 11:21:47,955 INFO         '
+2023-12-02 11:21:48,268 INFO PORT': '
+2023-12-02 11:21:48,583 INFO 5432',
+   
+2023-12-02 11:21:48,896 INFO  }
+}
+```
+2023-12-02 11:21:49,208 INFO   
+
+以上 `
+2023-12-02 11:21:49,523 INFO DATABASES
+2023-12-02 11:21:49,837 INFO ` 设置，是
+2023-12-02 11:21:50,153 INFO 配置一个名为
+2023-12-02 11:21:50,466 INFO  `default`
+2023-12-02 11:21:50,780 INFO （默认）的数据库
+2023-12-02 11:21:51,091 INFO ，使用 `django
+2023-12-02 11:21:51,408 INFO .db.backends.post
+2023-12-02 11:21:51,721 INFO gresql`
+2023-12-02 11:21:52,033 INFO  引擎，数据库的
+2023-12-02 11:21:52,347 INFO 名字为 `my
+2023-12-02 11:21:52,662 INFO database`
+2023-12-02 11:21:52,974 INFO ， 数据库用户
+2023-12-02 11:21:53,290 INFO 为 `mydatabase
+2023-12-02 11:21:53,602 INFO user`，
+2023-12-02 11:21:53,916 INFO 密码为 `myp
+2023-12-02 11:21:54,231 INFO assword`
+2023-12-02 11:21:54,543 INFO ，数据库主机
+2023-12-02 11:21:54,858 INFO 为 `localhost`,
+2023-12-02 11:21:55,173 INFO  端口 `543
+2023-12-02 11:21:55,490 INFO 2`。
+
+然
+2023-12-02 11:21:55,802 INFO 后在你的应用
+2023-12-02 11:21:56,114 INFO 内定义一个模
+2023-12-02 11:21:56,425 INFO 型（models.py
+2023-12-02 11:21:56,742 INFO ）：
+```python
+2023-12-02 11:21:57,055 INFO 
+from django
+2023-12-02 11:21:57,369 INFO .db import models
+2023-12-02 11:21:57,669 INFO 
+
+class Blog
+2023-12-02 11:21:57,983 INFO (models.Model
+2023-12-02 11:21:58,297 INFO ):
+    name
+2023-12-02 11:21:58,610 INFO  = models.CharField
+2023-12-02 11:21:58,925 INFO (max_length=
+2023-12-02 11:21:59,240 INFO 100)
+   
+2023-12-02 11:21:59,555 INFO  tagline =
+2023-12-02 11:21:59,869 INFO  models.TextField
+2023-12-02 11:22:00,183 INFO ()
+
+    def
+2023-12-02 11:22:00,497 INFO  __str__(
+2023-12-02 11:22:00,808 INFO self):
+       
+2023-12-02 11:22:01,123 INFO  return self
+2023-12-02 11:22:01,439 INFO .name
+
+2023-12-02 11:22:01,752 INFO ```
+
+这
+2023-12-02 11:22:02,066 INFO 里定义了一个名
+2023-12-02 11:22:02,381 INFO 为 `Blog`
+2023-12-02 11:22:02,693 INFO  的模型，它
+2023-12-02 11:22:03,009 INFO 包含了一个 `
+2023-12-02 11:22:03,322 INFO name` 属性
+2023-12-02 11:22:03,639 INFO 和一个 `tag
+2023-12-02 11:22:03,952 INFO line` 属性
+2023-12-02 11:22:04,263 INFO 。`name`
+2023-12-02 11:22:04,573 INFO  是一个最大
+2023-12-02 11:22:04,889 INFO 长度为 100 的
+2023-12-02 11:22:05,205 INFO 字符串字段，
+2023-12-02 11:22:05,515 INFO `tagline`
+2023-12-02 11:22:05,831 INFO  是一个文本
+2023-12-02 11:22:06,145 INFO 字段（可以接
+2023-12-02 11:22:06,461 INFO 受任意长度的
+2023-12-02 11:22:06,773 INFO 文本）。
+
+然
+2023-12-02 11:22:07,087 INFO 后运行下面的
+2023-12-02 11:22:07,396 INFO 命令，创建数据库
+2023-12-02 11:22:07,714 INFO 表：
+```sh
+2023-12-02 11:22:08,027 INFO 
+python manage
+2023-12-02 11:22:08,340 INFO .py makem
+2023-12-02 11:22:08,655 INFO igrations your
+2023-12-02 11:22:08,966 INFO _app
+python
+2023-12-02 11:22:09,280 INFO  manage.py
+2023-12-02 11:22:09,593 INFO  migrate
+
+2023-12-02 11:22:09,908 INFO ```
+`mak
+2023-12-02 11:22:10,220 INFO emigrations`
+2023-12-02 11:22:10,532 INFO  是告诉 Django 
+2023-12-02 11:22:10,847 INFO 你对模型做了
+2023-12-02 11:22:11,158 INFO 些改变，`m
+2023-12-02 11:22:11,469 INFO igrate`
+2023-12-02 11:22:11,783 INFO  是应用这些
+2023-12-02 11:22:12,095 INFO 改变到数据库。
+
+
+2023-12-02 11:22:12,407 INFO 注意，`your_app
+2023-12-02 11:22:12,722 INFO ` 需要替换
+2023-12-02 11:22:13,036 INFO 为你的应用名称
+2023-12-02 11:22:13,347 INFO 。
+
+接下来
+2023-12-02 11:22:13,664 INFO ，只需要引用
+2023-12-02 11:22:13,978 INFO 模型就能操作数据库
+2023-12-02 11:22:14,287 INFO ，例如下面的
+2023-12-02 11:22:14,599 INFO 创建与查询操作
+2023-12-02 11:22:14,914 INFO ：
+```python
+2023-12-02 11:22:15,224 INFO 
+from your
+2023-12-02 11:22:15,536 INFO _app.models import
+2023-12-02 11:22:15,852 INFO  Blog
+
+
+2023-12-02 11:22:16,165 INFO # 创建记录
+
+2023-12-02 11:22:16,481 INFO blog = Blog
+2023-12-02 11:22:16,795 INFO (name='
+2023-12-02 11:22:17,109 INFO Beatles Blog
+2023-12-02 11:22:17,422 INFO ', tagline
+2023-12-02 11:22:17,737 INFO ='All the
+2023-12-02 11:22:18,050 INFO  latest Beatles
+2023-12-02 11:22:18,363 INFO  news.')
+
+2023-12-02 11:22:18,679 INFO blog.save()
+
+
+2023-12-02 11:22:18,992 INFO # 查询记录
+
+2023-12-02 11:22:19,303 INFO blog = Blog
+2023-12-02 11:22:19,617 INFO .objects.get
+2023-12-02 11:22:19,933 INFO (name='
+2023-12-02 11:22:20,247 INFO Beatles Blog
+2023-12-02 11:22:20,560 INFO ')
+print(blog
+2023-12-02 11:22:20,875 INFO .tagline)
+
+2023-12-02 11:22:21,191 INFO ```
+`your
+2023-12-02 11:22:21,506 INFO _app` 需
+2023-12-02 11:22:21,818 INFO 要替换为你的
+2023-12-02 11:22:22,133 INFO 应用名称。
+
+以上
+2023-12-02 11:22:22,444 INFO 就是 Django ORM
+2023-12-02 11:22:22,756 INFO  使用 PostgreSQL 数据
+2023-12-02 11:22:23,070 INFO 库的一个基本
