@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="979f1456-939f-4824-9d5d-2e0ace1e3ca7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/websocketcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/websocketcode.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/method/cert.pem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configjson.json" beforeDir="false" afterPath="$PROJECT_DIR$/configjson.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gptmethod.py" beforeDir="false" afterPath="$PROJECT_DIR$/method/gptmethod.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/method/key.pem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logsetter.py" beforeDir="false" afterPath="$PROJECT_DIR$/method/logsetter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_websocket.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_websocket.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasklogger.log" beforeDir="false" afterPath="$PROJECT_DIR$/tasklogger.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/method/gptmethod.py" beforeDir="false" afterPath="$PROJECT_DIR$/method/gptmethod.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
